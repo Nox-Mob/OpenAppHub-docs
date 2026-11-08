@@ -1,0 +1,12 @@
+{
+  // Cloudflare Workers static-assets deploy for docs.openapphub.org.
+  // Connect this repo in Cloudflare (Workers & Pages → Create → Import a repository):
+  //   build command: npm run build    deploy command: npx wrangler deploy
+  // Then add the custom domain docs.openapphub.org to the Worker.
+  "name": "openapphub-docs",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  }
+}
