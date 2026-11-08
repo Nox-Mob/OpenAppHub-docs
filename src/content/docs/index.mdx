@@ -1,0 +1,36 @@
+---
+title: "OpenAppHub Docs"
+description: "How to use OpenAppHub, OpenCharterApp, OpenBoardApp and OpenLedgerApp."
+template: splash
+hero:
+  tagline: Step-by-step help for every app in the suite. Pick an app to start, or search with the box at the top.
+  actions:
+    - text: New here? Start with the suite
+      link: /hub/
+      icon: right-arrow
+---
+
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid>
+  <LinkCard
+    title="OpenAppHub"
+    description="Accounts, hosted and self-hosted options, plans, your data and getting help."
+    href="/hub/"
+  />
+  <LinkCard
+    title="OpenCharterApp"
+    description="Membership, dues and governance for associations, from a single local group to a national with chapters."
+    href="/charter/"
+  />
+  <LinkCard
+    title="OpenBoardApp"
+    description="Board meetings, agendas, live voting, minutes, documents and action items for small nonprofits."
+    href="/board/"
+  />
+  <LinkCard
+    title="OpenLedgerApp"
+    description="Double-entry bookkeeping for very small businesses and nonprofits, on the web or as a desktop app."
+    href="/ledger/"
+  />
+</CardGrid>

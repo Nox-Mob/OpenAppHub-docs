@@ -1,0 +1,16 @@
+/*
+ * Suite colours. Replace these with the tokens from OpenAppHub's
+ * shared/design/tokens.css once the design system is approved, so the docs
+ * match the apps.
+ */
+:root {
+  --sl-color-accent-low: #12352b;
+  --sl-color-accent: #2f7d63;
+  --sl-color-accent-high: #c9eadc;
+}
+
+:root[data-theme='light'] {
+  --sl-color-accent-low: #d4efe4;
+  --sl-color-accent: #1f6b52;
+  --sl-color-accent-high: #0f3326;
+}
