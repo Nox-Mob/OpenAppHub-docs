@@ -5,11 +5,11 @@ sidebar:
   order: 3
 ---
 
-OpenAppHub is new. Today you can create an account, sign in, reset your password and accept invitation links.
-Not available yet:
+Today you can create an account, set up an organization, invite people, manage roles, transfer ownership,
+change your account settings and see the audit log. Not available yet:
 
-- Creating, renaming, switching and deleting organizations in OpenAppHub.
-- Inviting people, changing roles and removing people from OpenAppHub.
-- Transferring ownership and deleting your account.
-- Plans, checkout and billing.
-- One sign-in across the apps: each app moves onto OpenAppHub separately.
+- Plans, checkout and billing. Every app is free to try until plans are announced.
+- One sign-in across the apps: each app moves onto OpenAppHub separately. Until then, an app's dashboard card
+  says **Coming to OpenAppHub soon**.
+- Invitations to people who already have an account aren't emailed; you send them the link yourself.
+- Notification preferences are saved now; the billing and organization-activity emails start with billing.

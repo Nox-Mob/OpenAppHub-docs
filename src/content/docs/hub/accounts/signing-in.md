@@ -17,7 +17,13 @@ You sign in once at [openapphub.org](https://openapphub.org/login) and stay sign
 1. Select **Create account**.
 2. Enter **Your name**, **Email** and a **Password** of at least 8 characters.
 3. Agree to the Terms of Service and Privacy Policy, then select **Create account**.
-4. Open the confirmation link we email you.
+4. Open the confirmation link we email you. The [guided setup](/hub/start/getting-started/) then helps you
+   name your organization and invite your team.
+
+### No confirmation email
+
+- It can take a minute or two. Check your spam or promotions folder.
+- Select **Send it again** on the **Check your email** page, or **Use a different email** if you mistyped it.
 
 If you came from an OpenCharterApp join page, you go back there after creating your account to finish
 joining your association.

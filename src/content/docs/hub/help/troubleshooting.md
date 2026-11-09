@@ -14,3 +14,9 @@ sidebar:
 | **Sign-ups are closed for now** | OpenAppHub isn't open to new accounts yet. |
 | **This link has expired** (password reset) | Reset links work once and expire after an hour. Send a new one. |
 | **Continue with Google** shows an error | Google sign-in may not be switched on yet. Use your email and password. |
+| No confirmation email after signing up | Check spam, then select **Send it again** on the **Check your email** page. |
+| **Your current password isn't right.** (changing your password) | Enter the password you sign in with now. Forgot it? Sign out and use **Forgot password?**. |
+| A member is missing from **Transfer ownership** | Only people who have confirmed their email address are listed. Ask them to accept their invitation and confirm their email. |
+| **Type the new owner's name exactly as shown to confirm.** | Type the name shown next to "Type … to confirm", or their email address if that's what's shown. |
+| You can't delete your account | You own an organization. Transfer ownership or delete the organization first. |
+| **Only the owner or an admin can change these settings.** | Ask an owner or admin in your organization. |
