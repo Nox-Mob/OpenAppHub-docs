@@ -34,6 +34,6 @@ If a trial or plan ends, **nothing is deleted**: the apps become read-only, and 
 export everything. Choose a plan to keep working.
 
 :::note[Prices]
-Prices haven't been announced. Until they are, **Billing** shows the plans as **Price TBA** and the trial
-continues.
+Prices haven't been announced. Until they are, **Billing** shows the plans as **Price TBA** and nothing can be
+bought or charged.
 :::
