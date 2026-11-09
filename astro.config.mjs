@@ -17,9 +17,9 @@ export default defineConfig({
         'Help for OpenAppHub and its apps: OpenCharterApp, OpenBoardApp and OpenLedgerApp.',
       logo: { src: './src/assets/logo.svg', alt: 'OpenAppHub' },
       favicon: '/favicon.svg',
-      customCss: ['./src/styles/custom.css'],
+      customCss: ['@fontsource-variable/inter', './src/styles/custom.css'],
       lastUpdated: true,
-      editLink: { baseUrl: 'https://github.com/Nox-Mob/OpenAppHub-Docs/edit/main/' },
+      editLink: { baseUrl: 'https://github.com/Nox-Mob/OpenAppHub-docs/edit/main/' },
       social: [
         { icon: 'github', label: 'GitHub', href: 'https://github.com/Nox-Mob' },
         { icon: 'email', label: 'Support', href: 'mailto:support@openapphub.org' },
