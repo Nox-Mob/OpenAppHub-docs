@@ -18,6 +18,9 @@ in, and your choice carries across the apps.
 | **Member** | Use the apps and make changes. |
 | **Viewer** | See, but not change. |
 
+Owners, admins and members are the organization's **editors**: hosted plans limit how many there can be
+([Plans](/hub/hosting/plans/)). Viewers never count.
+
 Apps can add their own roles on top (for example a board's chair or secretary, or a treasurer). Those never
 give more access than the person's role here.
 
