@@ -25,7 +25,7 @@ Each person gets one free trial; a second organization you create starts without
 Owners and admins open **Billing** in the side menu to see:
 
 - the plan or trial, with the days left and the end date;
-- how many people are in the organization, against the plan's limit;
+- how many editors the organization has (everyone except viewers), against the plan's limit;
 - **Choose a plan**: monthly or yearly. **Starter** asks which app you want. Payment is handled by Stripe;
 - **Manage billing** once you have a plan: change plan or payment method, see invoices, or cancel.
   **Update payment** appears if a payment fails.
@@ -34,6 +34,6 @@ If a trial or plan ends, **nothing is deleted**: the apps become read-only, and 
 export everything. Choose a plan to keep working.
 
 :::note[Prices]
-Prices haven't been announced. Until they are, **Billing** shows the plans as **Price TBA** and nothing can be
-bought or charged.
+Plans and prices are on [Plans](/hub/hosting/plans/). A plan shows **Price TBA** only if its price isn't
+available yet; it can't be chosen until it is.
 :::
