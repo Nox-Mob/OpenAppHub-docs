@@ -10,6 +10,6 @@
     "not_found_handling": "404-page"
   },
   // Branch builds run `wrangler preview`, which needs this block (empty: a static site has no
-  // preview-only settings). Previews are served at <branch>-openapphub-docs.<subdomain>.workers.dev.
+  // preview-only settings).
   "previews": {}
 }
