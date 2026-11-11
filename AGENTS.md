@@ -1,5 +1,7 @@
 # AGENTS.md — OpenAppHub Docs
 
+> **Branches (owner rule, 2026-11-11):** pull requests target `staging`, and every merge goes to `staging`. Nothing merges into `main` (production) without the owner's approval, or the owner merging it. CI runs on pull requests and on pushes to `staging`; only workflows that must run on `main` (releases) do.
+
 Rules for AI coding agents working in this repository.
 
 ## What this repo is
