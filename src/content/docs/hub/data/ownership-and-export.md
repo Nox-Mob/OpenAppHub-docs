@@ -14,4 +14,16 @@ Your organization's data belongs to your organization.
 - **Deleting an organization** deletes its data in every app. Only the owner can do it, after typing the
   organization's name.
 
-How to export from each app: see that app's docs.
+## Exporting from each app
+
+| App            | Where                                      | What you get                                                                                    |
+| -------------- | ------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| OpenCharterApp | Settings → General → **Export everything** | A zip: one spreadsheet (CSV) per table and one JSON file, for the organization and its chapters |
+| OpenBoardApp   | **Settings & export**                      | The full board record as JSON, and each table as a spreadsheet (CSV)                            |
+| OpenLedgerApp  | Settings → **Exports**                     | Transactions as a spreadsheet, and a full signed backup you can restore                         |
+
+## When an app is read-only
+
+While a trial or plan has ended, each app shows a banner saying it's read-only, and its buttons and forms for
+making changes are switched off. Everything you can see stays visible, and the exports above keep working.
+Choose a plan on the hub's Billing page to switch them back on.
