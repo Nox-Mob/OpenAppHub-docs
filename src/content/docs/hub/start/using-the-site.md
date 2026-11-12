@@ -2,7 +2,7 @@
 title: "Using the site"
 description: "Light and dark mode, cookies and help links."
 sidebar:
-  order: 2
+  order: 3
 ---
 
 ## Light and dark mode
