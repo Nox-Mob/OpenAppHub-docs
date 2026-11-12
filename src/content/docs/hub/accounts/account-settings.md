@@ -23,6 +23,10 @@ Select your initials at the top right, then **Account**.
 | **Billing**: trial reminders, receipts and payment problems, for organizations you own or administer | On | Yes |
 | **Organization activity**: people joining, leaving or changing roles | On | Yes |
 | **Product news**: new features, a few times a year | Off | Yes |
+| **Reminders**: upcoming board meetings and action items due, from the apps you use | On | Yes |
+| **Task summary**: your open tasks and upcoming meetings from every app, in one email | Weekly | Daily, weekly or off |
+
+Every email you can turn off has an **Unsubscribe** link at the bottom; it asks you to confirm first.
 
 When the Terms of Service or Privacy Policy change, we email everyone with an account before the change takes
 effect. Continuing to use OpenAppHub after that means you accept the new version.

@@ -15,3 +15,9 @@ Each meeting has tabs that follow the meeting's life:
 6. **Action items**: assign follow-ups with due dates that stay visible after the meeting.
 
 Start from a **Meeting template** to reuse a regular agenda.
+
+## Reminders
+
+Everyone with a current term gets an email a week before a scheduled meeting and again the day before. Whoever
+an action item is assigned to gets one two days before it's due, and one when it becomes overdue. Moving a meeting
+or a due date sends a fresh reminder. Each person can turn reminders off.
