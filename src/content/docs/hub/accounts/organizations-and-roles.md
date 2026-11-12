@@ -21,10 +21,22 @@ in, and your choice carries across the apps.
 Owners, admins and members are the organization's **editors**: hosted plans limit how many there can be
 ([Plans](/hub/hosting/plans/)). Viewers never count.
 
-Apps can add their own roles on top (for example a board's chair or secretary, or a treasurer). Those never
-give more access than the person's role here.
+### A different role in each app
 
-Owners and admins change roles on the **Members** page. Anyone except the owner can select **Leave** there
+Someone can have a different role in each app. For example an admin in OpenBoardApp but view-only in
+OpenLedgerApp, or a member in OpenCharterApp and OpenBoardApp but an admin in OpenLedgerApp. On the
+**Members** page, under **Roles in each app**, owners and admins pick the role per app (admin, member or
+viewer). Each starts as the person's OpenAppHub role; one that's been changed says **Set for this app**. The
+owner is the owner in every app. Changing someone's role inside an app (OpenBoardApp's or OpenLedgerApp's
+members page) changes it for that app only.
+
+Apps also add their own roles on top (for example a board's chair or secretary, a treasurer, or a chapter
+president). Those are set in the app and shown under the person's role.
+
+The same table has **Can build workflows**: tick it to let someone who isn't an owner or admin build
+[workflows](/hub/accounts/automations/).
+
+Owners and admins change OpenAppHub roles on the **Members** page. Anyone except the owner can select **Leave** there
 to leave an organization.
 
 ## Create or switch organizations
