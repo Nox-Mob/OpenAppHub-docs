@@ -16,3 +16,9 @@ sidebar:
 **Read-only**: you can see and export everything but not change it, for example after a trial ends.
 
 **Self-hosted**: running an app on your own server instead of openapphub.org.
+
+**Automation**: something an app does on its own for your organization, like reminder emails. Owners and admins can switch one off or change when it runs. See [Automations](/hub/accounts/automations/).
+
+**Task summary** (digest): one email with your open tasks and upcoming meetings from every app, on the schedule you choose. See [The task summary email](/hub/accounts/task-summary/).
+
+**Chapter's organization**: the organization in OpenAppHub that a chapter gets when it runs its own board in OpenBoardApp. It's covered by its national's plan. See [Chapters' own organizations](/hub/accounts/chapters/).
