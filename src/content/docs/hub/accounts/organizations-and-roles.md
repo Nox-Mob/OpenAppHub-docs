@@ -1,6 +1,6 @@
 ---
 title: "Organizations and roles"
-description: "Organizations, the four roles, settings and ownership."
+description: "Organizations, roles in OpenAppHub and in each app, named roles, settings and ownership."
 sidebar:
   order: 2
 ---
@@ -11,33 +11,79 @@ in, and your choice carries across the apps.
 
 ## Roles
 
+Everyone has **a role in OpenAppHub** and **a role in each app**, and they're separate: an OpenAppHub
+admin isn't an admin in OpenBoardApp unless given that role there, and an OpenLedgerApp admin isn't an
+OpenAppHub admin.
+
+### In OpenAppHub
+
 | Role | Can |
 |---|---|
-| **Owner** | Everything, including deleting the organization and transferring ownership. Exactly one per organization. |
-| **Admin** | Manage people, invitations and settings. |
-| **Member** | Use the apps and make changes. |
-| **Viewer** | See, but not change. |
+| **Owner** | Everything, in OpenAppHub and in every app, including deleting the organization and transferring ownership. Exactly one per organization. |
+| **Admin** | Manage people, invitations, named roles, billing and the organization's settings. |
+| **Member** | See the dashboard and their tasks. |
+| **Viewer** | See the dashboard. |
 
-Owners, admins and members are the organization's **editors**: hosted plans limit how many there can be
-([Plans](/hub/hosting/plans/)). Viewers never count.
+### In each app
 
-### A different role in each app
+| Role | Can, in that app |
+|---|---|
+| **Admin** | Everything, including the app's settings |
+| **Member** | Use the app and make changes |
+| **Viewer** | See, but not change |
 
-Someone can have a different role in each app. For example an admin in OpenBoardApp but view-only in
-OpenLedgerApp, or a member in OpenCharterApp and OpenBoardApp but an admin in OpenLedgerApp. On the
-**Members** page, under **Roles in each app**, owners and admins pick the role per app (admin, member or
-viewer). Each starts as the person's OpenAppHub role; one that's been changed says **Set for this app**. The
-owner is the owner in every app. Changing someone's role inside an app (OpenBoardApp's or OpenLedgerApp's
-members page) changes it for that app only.
+Someone's role in an app comes from, in order:
 
-Apps also add their own roles on top (for example a board's chair or secretary, a treasurer, or a chapter
-president). Those are set in the app and shown under the person's role.
+1. **The owner** is the owner in every app.
+2. **A role set for them in that app**, on the **Members** page under **Roles in each app** (or in the
+   app's own members page). It wins over a named role.
+3. **Their named role** (below), if it gives that app a role.
+4. Otherwise they're a **viewer** in that app, shown as **Not set: viewer** so you can spot it.
 
-The same table has **Can build workflows**: tick it to let someone who isn't an owner or admin build
-[workflows](/hub/accounts/automations/).
+For example: an admin in OpenBoardApp but view-only in OpenLedgerApp; or a member in OpenCharterApp and
+OpenBoardApp but an admin in OpenLedgerApp.
 
-Owners and admins change OpenAppHub roles on the **Members** page. Anyone except the owner can select **Leave** there
-to leave an organization.
+### Named roles
+
+A **named role** is a role you name, like *Treasurer*, that says what it can do in each app at once: for
+example admin in OpenLedgerApp, member in OpenBoardApp and OpenCharterApp. It can also give **extra
+permissions** an app offers, without making the person an admin there. For example, a member in
+OpenCharterApp who may see payments, or a member in OpenBoardApp who may edit the official record.
+
+- Create and change them on the **Members** page, under **Named roles** (owner and OpenAppHub admins).
+- Each person has **one** named role at most; pick it in the **Named role** column. Anything else they
+  need in one app, set for them in that app.
+- Changing a named role changes it for everyone who holds it. Deleting one leaves its people as viewers,
+  except where something is set for them in a single app.
+
+| App | Extra permissions a named role can give |
+|---|---|
+| OpenCharterApp | Any of its permissions, such as seeing or recording payments, managing members, appointing officers. They apply in every chapter of the organization. |
+| OpenBoardApp | Edit the official record (what the chair and secretary can do); read the audit log; manage the board |
+| OpenLedgerApp | Close the books (what a treasurer can do); manage the books |
+
+Apps also have their own roles on top, set in the app: a board's chair or secretary, a treasurer, a
+chapter's president. They show under the person's role on the Members page.
+
+### Building workflows
+
+The owner and OpenAppHub admins can build [workflows](/hub/accounts/automations/), and can let anyone else
+build them: tick **Can build workflows** for that person.
+
+:::caution[Workflows run as the organization]
+A workflow acts for the organization, not as the person who built it. Someone who can build workflows can
+look up and change information in every app your organization uses through a workflow, whatever their own
+role in those apps. Give it only to people you trust with that.
+:::
+
+### Plans count editors
+
+Hosted plans limit how many **editors** an organization has: the owner, OpenAppHub admins, and anyone who
+is a member or admin in at least one app ([Plans](/hub/hosting/plans/)). People who are viewers everywhere
+never count, and neither do the people in your chapters' own organizations.
+
+Owners and admins change OpenAppHub roles on the **Members** page. Anyone except the owner can select
+**Leave** there to leave an organization.
 
 ## Create or switch organizations
 

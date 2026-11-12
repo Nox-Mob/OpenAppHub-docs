@@ -13,8 +13,16 @@ expires after **14 days**.
 Owners and admins can invite people:
 
 1. Open **Members**.
-2. Under **Invite someone**, enter their **Email** and choose a **Role** (Admin, Member or Viewer).
+2. Under **Invite someone**, enter their **Email** and choose:
+   - their **Role in OpenAppHub** (Admin, Member or Viewer);
+   - a **Named role**, if your organization has any;
+   - their **Role in each app**. Each says what the named role gives (for example *From Treasurer:
+     Admin*), or **Not set: viewer**. Anything you leave unset is view-only, and you can change it later.
 3. Select **Send invitation**.
+
+The roles in OpenAppHub and in each app are separate ([Roles](/hub/accounts/organizations-and-roles/#roles)).
+An invitation sent from inside OpenBoardApp or OpenLedgerApp makes the person an OpenAppHub member with the
+role you chose in that app.
 
 - **New to OpenAppHub:** they get an email with a link to join.
 - **Already have an account:** we don't email them. You get the link to send them yourself, with a
