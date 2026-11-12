@@ -69,7 +69,11 @@ Nothing runs until you select **Save workflow**; the page lists anything missing
 
 ### Who can build them
 
-Owners and admins, and anyone they choose: on the **Members** page, tick **Can build workflows** for that person (or add them under **Who can build workflows** on the Automations page). Everyone else in the organization can see the workflows but not change them.
+The owner and OpenAppHub admins, and anyone they choose: on the **Members** page, tick **Can build workflows** for that person (or add them under **Who can build workflows** on the Automations page). Everyone else in the organization can see the workflows but not change them.
+
+:::caution[Workflows run as the organization]
+A workflow acts for the organization, not as the person who built it: its steps can look up and change information in every app your organization uses, whatever the builder's own role in those apps. That's why OpenAppHub asks you to confirm before letting someone build workflows.
+:::
 
 ### Nationals and chapters
 

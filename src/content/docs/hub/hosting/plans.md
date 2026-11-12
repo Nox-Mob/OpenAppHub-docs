@@ -14,9 +14,10 @@ After that, choose one plan for the organization, paid monthly or yearly in US d
 | Suite | all three | up to 15 | $10 | $100 |
 | Plus | all three | unlimited | $25 | $250 |
 
-**Editors** are everyone who can change your data: the owner, admins and members
-([roles](/hub/accounts/organizations-and-roles/)). **Viewers don't count**, and neither do dues-paying members
-in OpenCharterApp, so a chapter with hundreds of members can still be on Starter or Suite.
+**Editors** are the owner, OpenAppHub admins, and anyone who is a member or admin in at least one app
+([roles](/hub/accounts/organizations-and-roles/#roles)). People who are viewers everywhere don't count, and
+neither do dues-paying members in OpenCharterApp or the people in your chapters' own organizations, so a
+chapter with hundreds of members can still be on Starter or Suite.
 
 Owners and admins choose and change plans on **Billing**. Payment is handled by Stripe. If a plan lapses,
 nothing is deleted: the apps become read-only and you can still export everything.

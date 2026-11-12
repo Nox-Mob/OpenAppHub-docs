@@ -21,8 +21,12 @@ Under **Settings**:
 | **Member** | Record and change transactions |
 | **View only** | See, but not change |
 
-Changing someone's role under **Users & roles** changes it in OpenLedgerApp only. Owners and admins can also
-set each person's role in every app at once from OpenAppHub ([A different role in each app](/hub/accounts/organizations-and-roles/#a-different-role-in-each-app)).
+Each person's OpenLedgerApp role is separate from their OpenAppHub role: an OpenAppHub admin isn't a Ledger
+admin unless given that role. Changing someone's role under **Users & roles** changes it in OpenLedgerApp
+only. On OpenAppHub's **Members** page you can set it for every app at once, or give a named role that sets
+it ([Roles](/hub/accounts/organizations-and-roles/#roles)); a named role can also let a member close the
+books without being the treasurer. Anyone with nothing set can view only. A treasurer needs a member role
+in OpenLedgerApp.
 
 ## The first time you open OpenLedgerApp
 
