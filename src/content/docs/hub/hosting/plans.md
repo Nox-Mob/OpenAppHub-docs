@@ -22,3 +22,9 @@ Owners and admins choose and change plans on **Billing**. Payment is handled by 
 nothing is deleted: the apps become read-only and you can still export everything.
 
 The prices on the **Billing** page are always the current ones.
+
+## Chapters
+
+A chapter that uses OpenBoardApp through its national (see
+[Chapters on OpenBoardApp](/charter/governance/board-seats/#chapters-on-openboardapp)) is covered by the
+national's plan. Its **Billing** page says so, and it has no plan or bill of its own.
