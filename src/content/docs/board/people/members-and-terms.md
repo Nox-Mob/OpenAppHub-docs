@@ -9,7 +9,7 @@ Under **Members & terms**, keep the board roster, its roles (seats) and each per
 
 ## Roles in OpenBoardApp
 
-Everyone in your organization has one role in OpenBoardApp. Owners and admins set it on **Members & terms**.
+Everyone in your organization has one role in OpenBoardApp. Owners and admins set it on **Members & terms**; it changes the role in OpenBoardApp only, not in OpenAppHub or the other apps (to see or change everyone's role in every app, use **Roles in each app** on OpenAppHub's **Members** page: [Organizations and roles](/hub/accounts/organizations-and-roles/)).
 
 | Role | Can |
 |---|---|
