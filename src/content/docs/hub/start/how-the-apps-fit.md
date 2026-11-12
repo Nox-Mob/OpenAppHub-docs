@@ -2,7 +2,7 @@
 title: "How the apps fit together"
 description: "One account, one organization, three apps."
 sidebar:
-  order: 1
+  order: 2
 ---
 
 OpenAppHub is the front door to the suite. It holds the things every app shares:
