@@ -24,7 +24,14 @@ Select your initials at the top right, then **Account**.
 | **Organization activity**: people joining, leaving or changing roles | On | Yes |
 | **Product news**: new features, a few times a year | Off | Yes |
 | **Reminders**: upcoming board meetings and action items due, from the apps you use | On | Yes |
-| **Task summary**: your open tasks and upcoming meetings from every app, in one email | Weekly | Daily, weekly or off |
+| **Task summary**: your open tasks and upcoming meetings from every app, in one email | Weekly, Monday 7:00 AM | Daily, weekly or off; you also choose the day, time, time zone, organizations and what it includes |
+
+Choose and select **Save**. These choices are yours alone (nobody else in your organizations sees them) and apply in every app. The task summary has its own page: [The task summary email](/hub/accounts/task-summary/).
+
+Reminders and the task summary are different things:
+
+- **Reminders** are about one thing each, sent when it's coming up (a meeting in 7 days, an action item due in 2). Your organization's owners and admins choose *when* they're sent ([Automations](/hub/accounts/automations/)); you choose *whether* you get them here.
+- **The task summary** is one email that lists everything open for you, on your own schedule.
 
 Every email you can turn off has an **Unsubscribe** link at the bottom; it asks you to confirm first.
 
