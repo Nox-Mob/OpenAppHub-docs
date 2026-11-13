@@ -39,6 +39,8 @@ Board members with a current term get [meeting reminders](/board/meetings/runnin
 
 ## Committees
 
+The full guide: [Committees](/board/people/committees/).
+
 **Committees** lists your committees and their members, for example a finance or nominating committee.
 
 ## Officers from OpenCharterApp

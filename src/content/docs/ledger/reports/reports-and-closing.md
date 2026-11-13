@@ -30,3 +30,12 @@ Under **Settings** > **Close**, **Close a month**: choose the month and **Check 
 **Lock the books** sets the lock date directly. Only admins and treasurers can lock or unlock.
 
 **Reopen books** lets people change a closed period again (for example to fix a mistake an auditor found). A reason is required and is saved in **History** with your name. **Keep closed through** reopens only the later months; leave it empty to reopen everything.
+
+## Closing a fiscal year
+
+Under **Settings** > **Close**, **Close a fiscal year** ends a year's books. Choose **Fiscal year ends** (the last day of the year; your fiscal year's first month is an organization setting) and the account that receives the year's result: **Net assets account** for nonprofits, **Retained earnings account** otherwise. OpenLedgerApp shows a preview of the year and the amount; **Close this fiscal year** then:
+
+1. records **one closing transaction** that moves the year's net result (nonprofits) or profit into that account, so income and expense accounts start the new year at zero, and
+2. **locks the books** through the year's last day.
+
+It can't be undone, and the closing transaction is part of the history. **Closed years** lists every year closed. Only admins and treasurers can close a year. Closing a year that's already closed does nothing.

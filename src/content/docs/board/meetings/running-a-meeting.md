@@ -27,6 +27,8 @@ The meeting and its starting agenda are saved together: you never get a meeting 
 
 ## Meeting templates
 
+The full guide: [Meeting templates](/board/meetings/templates/).
+
 **Meeting templates** keep a reusable title, time, place and agenda outline for meetings you hold regularly. Write the agenda one item per line: `Title | Presenter | Minutes`, for example `Treasurer's report | Tess | 10`. Or open a meeting and select **Save as template**.
 
 ## Agenda items that need a vote
@@ -41,13 +43,17 @@ Reports from the other apps can go straight in: in OpenCharterApp (**Reports**) 
 
 ## Action items
 
+The full guide: [Action items](/board/meetings/action-items/).
+
 On a meeting's **Action items** tab (or **Action items** in the menu), add follow-ups with an owner and a due date. They stay visible after the meeting until they're **Done**, and appear on the assignee's [OpenAppHub dashboard](/hub/start/dashboard/) and in their [task summary](/hub/accounts/task-summary/).
 
 ## Reminders
+
+Everything about email in OpenBoardApp: [Reminders and email](/board/meetings/reminders-and-email/).
 
 OpenBoardApp emails reminders on its own:
 
 - **Meeting reminders**: everyone with a current term gets an email 7 days and 1 day before a scheduled meeting.
 - **Action item reminders**: whoever an action item is assigned to gets one 2 days before it's due, and once more when it becomes overdue.
 
-Moving a meeting or a due date sends a fresh reminder. Owners and admins can change the days, or switch either one off, on the **Email** page (**Reminders for** your organization); see [Automations](/hub/accounts/automations/). Each person can turn reminders off for themselves on their OpenAppHub **Account** page.
+Moving a meeting or a due date sends a fresh reminder. Owners and admins can change the days, or switch either one off, on the **Email** page (**Reminders for** your organization); see [Automations](/hub/automations/). Each person can turn reminders off for themselves on their OpenAppHub **Account** page.

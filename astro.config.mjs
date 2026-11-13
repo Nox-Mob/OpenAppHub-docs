@@ -10,6 +10,10 @@ const group = (label, directory) => ({ label, items: [{ autogenerate: { director
 
 export default defineConfig({
   site: 'https://docs.openapphub.org',
+  // Pages that moved: old links keep working.
+  redirects: {
+    '/hub/accounts/automations/': '/hub/automations/',
+  },
   integrations: [
     starlight({
       title: 'OpenAppHub Docs',
@@ -34,6 +38,7 @@ export default defineConfig({
               items: [
                 group('Start here', 'hub/start'),
                 group('Accounts and access', 'hub/accounts'),
+                group('Automations', 'hub/automations'),
                 group('Hosting and plans', 'hub/hosting'),
                 group('Your data', 'hub/data'),
                 group('Help', 'hub/help'),
