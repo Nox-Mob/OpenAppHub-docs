@@ -7,17 +7,18 @@ sidebar:
 
 **Settings** has a section menu down the left. What each section is for, and who can use it:
 
-| Section                | For                                                           | Who                                     |
-| ---------------------- | ------------------------------------------------------------- | --------------------------------------- |
-| **Your preferences**   | The wording OpenLedgerApp uses, and the tutorial              | Everyone (wording is changed by admins) |
-| **Accounts**           | Your chart of accounts: add from a list, archive, make active | Admins and treasurers                   |
-| **Close**              | Close a month, lock or reopen the books, close a fiscal year  | Admins and treasurers                   |
-| **Users & roles**      | Who uses the books and their role; invitations; ownership     | Admins                                  |
-| **Security**           | Two-step sign-in, deleting your account                       | Everyone, for themselves                |
-| **Exports and backup** | Spreadsheets of your transactions; full backup and restore    | Backups and restores: admins            |
-| **History**            | Who changed what                                              | Admins                                  |
-| **Diagnostics**        | Health checks for the books and this installation             | Admins and treasurers                   |
-| **Email**              | Your notifications and email choices; reminders               | Everyone                                |
+| Section                     | For                                                                                                         | Who                                     |
+| --------------------------- | ----------------------------------------------------------------------------------------------------------- | --------------------------------------- |
+| **Your preferences**        | The wording OpenLedgerApp uses, and the tutorial                                                            | Everyone (wording is changed by admins) |
+| **Accounts**                | Your chart of accounts: add from a list, archive, make active                                               | Admins and treasurers                   |
+| **Close**                   | Close a month, lock or reopen the books, close a fiscal year                                                | Admins and treasurers                   |
+| **OpenCharterApp payments** | Dues from OpenCharterApp: whether they're offered, whose, from when, into which accounts, the card fee rate | Admins change; everyone sees            |
+| **Users & roles**           | Who uses the books and their role; invitations; ownership                                                   | Admins                                  |
+| **Security**                | Two-step sign-in, deleting your account                                                                     | Everyone, for themselves                |
+| **Exports and backup**      | Spreadsheets of your transactions; full backup and restore                                                  | Backups and restores: admins            |
+| **History**                 | Who changed what                                                                                            | Admins                                  |
+| **Diagnostics**             | Health checks for the books and this installation                                                           | Admins and treasurers                   |
+| **Email**                   | Your notifications and email choices; reminders                                                             | Everyone                                |
 
 ## Your preferences
 
@@ -32,6 +33,10 @@ The full list of accounts, including archived ones. Add accounts from a list of 
 ## Close
 
 Close a month, lock the books on a date, reopen them with a reason, and close a fiscal year. See [Reports and closing](/ledger/reports/reports-and-closing/#closing-a-month).
+
+## OpenCharterApp payments
+
+Whether dues people pay in OpenCharterApp are offered here as drafts to review, and how they're booked. See [Dues from OpenCharterApp](/ledger/everyday/charter-payments/).
 
 ## Users & roles
 

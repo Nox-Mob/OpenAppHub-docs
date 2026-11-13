@@ -46,3 +46,7 @@ Issued receipts never change: a new footer or tax setting applies to receipts is
 ## The payments record
 
 **Payments received** lists every payment with its status, method, member and receipt. Payments are an audited record: they're never deleted, and refunds and corrections are kept alongside the original. Export a date range as a spreadsheet with the export on the same tab, or everything at once with **Export everything** ([Records and reports](/charter/records/audit-log-and-reports/)).
+
+## Into your books (OpenLedgerApp)
+
+If you also use OpenLedgerApp, the payments recorded here, online and by hand, can be offered there as daily drafts your treasurer reviews and posts, so nobody types dues in twice. Refunds follow. It's switched on in OpenLedgerApp; see [Dues from OpenCharterApp](/ledger/everyday/charter-payments/).
