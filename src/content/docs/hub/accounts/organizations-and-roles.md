@@ -99,7 +99,7 @@ Open **Settings** in the side menu.
 |---|---|---|
 | **Name** | Owner or admin | Shown in every app. |
 | **Time zone and currency** | Owner or admin (others see them) | Every app shows dates in this time zone and money in this currency. |
-| **Billing contact** | Owner or admin | Where invoices and receipts go, if not to the owner, plus an optional name for invoices. |
+| **Billing contact** | Owner or admin | Where invoices and receipts go, if not to the owner, plus an optional name for invoices. It also gets billing [notifications](/hub/accounts/notifications/) by email. |
 
 ## Transferring ownership
 
