@@ -2,7 +2,7 @@
 title: "Audit log"
 description: "A record of changes to your organization, its members and invitations."
 sidebar:
-  order: 5
+  order: 6
 ---
 
 Owners and admins can open **Audit log** in the side menu. It lists, newest first, who changed what:

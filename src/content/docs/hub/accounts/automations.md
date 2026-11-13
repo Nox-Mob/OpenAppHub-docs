@@ -2,7 +2,7 @@
 title: "Automations"
 description: "Build your own workflows in the designer (drag-and-drop steps that use each other's data) or as a simple When, If, Then; share them with chapters; change the ready-made reminders."
 sidebar:
-  order: 6
+  order: 7
 ---
 
 **Automations** are the things the apps do on their own for your organization. There are two kinds, both on the **Automations** page in OpenAppHub's side menu:
@@ -17,7 +17,28 @@ There are two ways to build one, both on the **Automations** page:
 - **New workflow** opens the **designer**: steps you add and drag into order, where any step can use what an earlier step found. Loops, variables, waits and retries are all there. See [The designer](#the-designer) below.
 - **Simple workflow** opens a short form: **When** something happens, **If** it matches, **Then** do these things. Good for a quick reminder or routing.
 
+Or start from a **template** (below): a ready-made workflow you adjust and save as your own.
+
 You can open any simple workflow in the designer later (**Open in designer** on its card). Saved from there, it becomes a designer workflow.
+
+## Templates
+
+**Start from a template**, on the Automations page, lists ready-made workflows. **Use this** opens one in the designer with everything filled in; change what you like (the day, the number of days, the wording, who it goes to) and select **Save workflow**. Nothing runs until you save it, and it's yours from then on: changing it doesn't change the template.
+
+| Template | What it does | Apps it needs |
+|---|---|---|
+| **Renewal reminders** | Every Monday, emails each member whose membership ends in the coming week | OpenCharterApp |
+| **Lapsed membership notice** | When a membership lapses, tells the member and gives the chapter's treasurer a task to follow up | OpenCharterApp |
+| **Welcome new members** | When someone becomes a member, sends them a welcome email | OpenCharterApp |
+| **Nudge overdue action items** | Three days after an action item's due date, reminds the person it's assigned to | OpenBoardApp |
+| **Financial reports before each meeting** | Five days before a board meeting, adds the financial reports (as of the last closed month) to its packet | OpenBoardApp and OpenLedgerApp |
+| **Warn the treasurer about a loss** | When a month's books are closed, emails the board's treasurer if spending was more than income | OpenLedgerApp and OpenBoardApp |
+| **Election results into board terms** | Coming with elections in OpenCharterApp | |
+| **Route award requests for approval** | Coming with awards in OpenCharterApp | |
+
+A template your organization can't use yet says which app it needs.
+
+Templates are workflows you build. They're different from [notifications](/hub/accounts/notifications/), which OpenAppHub sends on its own and each person chooses for themselves.
 
 ## Simple workflows
 

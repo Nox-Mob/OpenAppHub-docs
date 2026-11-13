@@ -2,7 +2,7 @@
 title: "Chapters' own organizations"
 description: "How a chapter gets its own organization in OpenAppHub, and how its billing works."
 sidebar:
-  order: 7
+  order: 8
 ---
 
 A national (or any organization with chapters) runs its chapters in OpenCharterApp. Most chapters need nothing more. When a chapter wants to run **its own board** in OpenBoardApp (meetings, minutes, votes), it gets **its own organization** in OpenAppHub, under its national.

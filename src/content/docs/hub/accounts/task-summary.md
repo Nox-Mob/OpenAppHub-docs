@@ -2,14 +2,14 @@
 title: "The task summary email"
 description: "One email with your open tasks and upcoming meetings from every app, on your own schedule."
 sidebar:
-  order: 5
+  order: 6
 ---
 
 The task summary (sometimes called a digest) is one email that lists what's waiting for you in every app you use: the same tasks you see on your [dashboard](/hub/start/dashboard/), plus the board meetings coming up. It's sent on the schedule you choose, and **only when there's something to tell you**: if nothing is open, no email is sent.
 
 ## Choose when you get it
 
-Select your initials at the top right, then **Account**, and find **Task summary** under **Email notifications**. On a self-hosted app, it's on the app's **Email** page.
+Select your initials at the top right, then **Account**, and find **Task summary** under **Emails**. On a self-hosted app, it's on the app's **Email** page.
 
 | Setting | What it does | Default |
 |---|---|---|

@@ -8,10 +8,20 @@ sidebar:
 After you sign in, the dashboard shows the organization you have open, with what matters from each app it uses.
 An app you don't use leaves its panels out.
 
+## Choose what shows
+
+Select **Choose panels** at the top and tick the panels you want: **This week**, **Your tasks**, **Money this year**, **Upcoming meetings**, **Recent decisions**, **Officers** and **Your apps**. It's saved for you (nobody else's dashboard changes) and applies to every organization you open. Select **Done** to close it.
+
+If you belong to several organizations, choose which one opens first on your [account page](/hub/accounts/account-settings/#your-organizations).
+
 ## At a glance
 
 Four tiles across the top: **open tasks**, the **next meeting**, **current members** and **net this year**
 (income minus spending).
+
+## This week
+
+The next seven days, day by day: the board meetings and everything due, from every app, with anything already overdue at the top. Days with nothing on them are left out. "Today" follows your organization's time zone.
 
 ## Your tasks
 
