@@ -22,3 +22,23 @@ sidebar:
 **Task summary** (digest): one email with your open tasks and upcoming meetings from every app, on the schedule you choose. See [The task summary email](/hub/accounts/task-summary/).
 
 **Chapter's organization**: the organization in OpenAppHub that a chapter gets when it runs its own board in OpenBoardApp. It's covered by its national's plan. See [Chapters' own organizations](/hub/accounts/chapters/).
+
+**Workflow**: an automation your organization builds: when something happens (or on a schedule), do these steps. See [Automations](/hub/automations/).
+
+**Trigger**: what starts a workflow, such as *A payment is received* or *On a schedule*. See [What starts a workflow](/hub/automations/triggers/).
+
+**Step**: one thing a workflow does: send an email, give a task, ask for approval, look something up. See [Steps reference](/hub/automations/steps/).
+
+**Run**: one pass through a workflow for one thing that started it. Listed under **What happened**.
+
+**Approval**: a workflow asking people to approve or decline something, and waiting for the answer. See [Approvals](/hub/automations/approvals/).
+
+**Template**: a ready-made workflow you adjust and save as your own. See [Templates](/hub/automations/templates/).
+
+**Notification**: something OpenAppHub tells you about, under the bell and by email; each person chooses what they get. See [Notifications](/hub/accounts/notifications/).
+
+**Action from email**: a button in an email (Approve, Decline, Mark it done) that does it after you sign in and confirm, when your organization allows it. See [Actions from email](/hub/automations/actions-from-email/).
+
+**Named role**: a role your organization defines, such as *Treasurer*, that sets someone's role in each app. See [Organizations and roles](/hub/accounts/organizations-and-roles/).
+
+**Default organization**: the organization that opens first when you sign in, chosen on your account page.

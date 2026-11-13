@@ -33,6 +33,8 @@ Under **Settings & export**, upload your letterhead (a PDF, PNG or JPG of your h
 
 ## The audit log and exports
 
+More detail: [The audit log](/board/records/audit-log/) and [Settings and export](/board/records/settings-and-export/).
+
 Every change to the board's records is logged (who, what, when). Owners, admins, the chair and the secretary can read the audit log.
 
 Under **Settings & export**, owners and admins can export the **full board record** for a date range (**From**, **To**) and everything else as spreadsheets. Exports, reading and the audit log keep working even when your plan makes the app read-only.

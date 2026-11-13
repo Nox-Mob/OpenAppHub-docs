@@ -25,10 +25,14 @@ You see your own notifications only, from every organization you belong to. They
 | **Someone joined** the organization | The owner | Admins |
 | **Someone left** the organization | The owner | Admins |
 | **Someone's role changed**: in OpenAppHub, their named role, or their role in an app | The owner | Admins |
-| **A task was given to you** by a workflow (in the app only, to start with; your [task summary](/hub/accounts/task-summary/) lists it too) | You | — |
+| **A task is waiting for you**: a workflow gave you a task (the email says what it is, and may have a **Mark it done** button) | You | — |
+| **Something is waiting for your approval**: a workflow asks you to approve or decline something, such as *An award submission is pending your approval* ([Approvals](/hub/automations/approvals/)) | The people asked | — |
+| **Someone asked to join** (OpenCharterApp): *Pat Lee has asked to join Riverside. This is pending your approval* ([Reviewing join requests](/charter/membership/join-requests/)) | The people who review applications there | — |
 | **A workflow couldn't finish** | The owner | Admins |
 
 You aren't told about something you did yourself: an owner who adds someone isn't notified that they joined.
+
+Notifications about something **waiting for you** (a task, an approval, a join request) go only to the people concerned: nobody else can turn them on. Their emails say what's waiting, link to where it's done, and, if your organization allows it, have buttons to do it straight from the email ([Actions from email](/hub/automations/actions-from-email/)).
 
 The **billing contact** is the address set under **Billing contact** in [organization settings](/hub/accounts/organizations-and-roles/#organization-settings). It gets billing notifications by email even if it isn't anyone's account.
 

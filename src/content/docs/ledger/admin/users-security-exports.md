@@ -14,6 +14,8 @@ Under **Settings**:
 
 ## Roles
 
+Every Settings section is described in [Settings](/ledger/admin/settings/).
+
 | Role | Can |
 |---|---|
 | **Admin** | Everything (owners and admins of the organization) |

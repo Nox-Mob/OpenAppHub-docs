@@ -2,7 +2,7 @@
 title: "Bank imports and reconciling"
 description: "Import your bank's CSV, OFX or QFX file, post what's new, and reconcile each account against its statement."
 sidebar:
-  order: 2
+  order: 4
 ---
 
 ## Import a bank file

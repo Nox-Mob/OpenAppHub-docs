@@ -20,9 +20,13 @@ Funds are tracked on transactions (like a tag with rules), not as separate sets 
 
 ## Pledges
 
+The full guide: [Pledges](/ledger/nonprofit/pledges/).
+
 A **pledge** is a promised gift. It counts as income when promised, and is tracked until paid: record payments against it as they arrive, and see what's still outstanding on **Pledges**.
 
 ## Projects
+
+The full guide: [Projects](/ledger/nonprofit/projects/).
 
 A **project** is a piece of work with its own budget, like a renovation or an event. Choose the project on its transactions to compare budget and actual spending on **Projects**. Unlike a fund, a project doesn't restrict how money may be used.
 

@@ -38,7 +38,7 @@ A term can have **pricing rules**: a different price for members who answer a [m
 
 ## Joining and approval
 
-People join on your [join page](/charter/setup/chapters-and-join-page/#your-join-page). With **New members need admin approval** on (in **Settings**), a join request waits for an owner or admin: they appear on your dashboard's tasks and on **Members**, where you approve or decline. Otherwise people become members as soon as they pay.
+People join on your [join page](/charter/setup/chapters-and-join-page/#your-join-page). With **New members need admin approval** on (in **Settings**), a join request waits for review: the reviewers are told under the bell and by email, it's on their dashboard's tasks and on **Members**, where they approve or decline (or, if your organization allows it, straight from the email). See [Reviewing join requests](/charter/membership/join-requests/). Otherwise people become members as soon as they pay.
 
 You can also add members yourself (**Add member**, or import a spreadsheet: [Members](/charter/members/roster/)) and [record payments by hand](/charter/money/payments/#recording-a-payment-by-hand).
 

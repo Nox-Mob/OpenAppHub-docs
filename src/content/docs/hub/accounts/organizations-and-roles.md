@@ -100,6 +100,8 @@ Open **Settings** in the side menu.
 | **Name** | Owner or admin | Shown in every app. |
 | **Time zone and currency** | Owner or admin (others see them) | Every app shows dates in this time zone and money in this currency. |
 | **Billing contact** | Owner or admin | Where invoices and receipts go, if not to the owner, plus an optional name for invoices. It also gets billing [notifications](/hub/accounts/notifications/) by email. |
+| **Automations** | — | A link to the [Automations](/hub/automations/) page. |
+| **Actions from email** | Owner or admin (others see them) | Which actions people may take straight from an email: finish workflow tasks, answer approvals, approve or decline join requests, mark action items done. Each is off until switched on. See [Actions from email](/hub/automations/actions-from-email/). |
 
 ## Transferring ownership
 
