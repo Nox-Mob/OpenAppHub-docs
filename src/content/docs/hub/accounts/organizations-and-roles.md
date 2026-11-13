@@ -67,7 +67,7 @@ chapter's president. They show under the person's role on the Members page.
 
 ### Building workflows
 
-The owner and OpenAppHub admins can build [workflows](/hub/accounts/automations/), and can let anyone else
+The owner and OpenAppHub admins can build [workflows](/hub/automations/), and can let anyone else
 build them: tick **Can build workflows** for that person.
 
 :::caution[Workflows run as the organization]

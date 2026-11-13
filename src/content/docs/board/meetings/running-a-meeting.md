@@ -50,4 +50,4 @@ OpenBoardApp emails reminders on its own:
 - **Meeting reminders**: everyone with a current term gets an email 7 days and 1 day before a scheduled meeting.
 - **Action item reminders**: whoever an action item is assigned to gets one 2 days before it's due, and once more when it becomes overdue.
 
-Moving a meeting or a due date sends a fresh reminder. Owners and admins can change the days, or switch either one off, on the **Email** page (**Reminders for** your organization); see [Automations](/hub/accounts/automations/). Each person can turn reminders off for themselves on their OpenAppHub **Account** page.
+Moving a meeting or a due date sends a fresh reminder. Owners and admins can change the days, or switch either one off, on the **Email** page (**Reminders for** your organization); see [Automations](/hub/automations/). Each person can turn reminders off for themselves on their OpenAppHub **Account** page.

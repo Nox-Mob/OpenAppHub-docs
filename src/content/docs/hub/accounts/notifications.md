@@ -7,7 +7,7 @@ sidebar:
 
 Notifications tell you when something happens that matters to you: a payment didn't go through, someone joined your organization, a workflow gave you a task. They're the same in every app, and **you choose what you get**.
 
-Notifications are part of OpenAppHub itself. They aren't [workflows](/hub/accounts/automations/): your organization doesn't build them, and nobody else chooses yours.
+Notifications are part of OpenAppHub itself. They aren't [workflows](/hub/automations/): your organization doesn't build them, and nobody else chooses yours.
 
 ## The bell
 

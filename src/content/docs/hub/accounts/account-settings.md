@@ -38,7 +38,7 @@ Choose and select **Save**. Turning a kind off here stops those emails, whatever
 
 Reminders and the task summary are different things:
 
-- **Reminders** are about one thing each, sent when it's coming up (a meeting in 7 days, an action item due in 2). Your organization's owners and admins choose *when* they're sent ([Automations](/hub/accounts/automations/)); you choose *whether* you get them here.
+- **Reminders** are about one thing each, sent when it's coming up (a meeting in 7 days, an action item due in 2). Your organization's owners and admins choose *when* they're sent ([Automations](/hub/automations/)); you choose *whether* you get them here.
 - **The task summary** is one email that lists everything open for you, on your own schedule.
 
 Every email you can turn off has an **Unsubscribe** link at the bottom; it asks you to confirm first.

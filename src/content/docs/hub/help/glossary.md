@@ -17,7 +17,7 @@ sidebar:
 
 **Self-hosted**: running an app on your own server instead of openapphub.org.
 
-**Automation**: something an app does on its own for your organization, like reminder emails. Owners and admins can switch one off or change when it runs. See [Automations](/hub/accounts/automations/).
+**Automation**: something an app does on its own for your organization, like reminder emails. Owners and admins can switch one off or change when it runs. See [Automations](/hub/automations/).
 
 **Task summary** (digest): one email with your open tasks and upcoming meetings from every app, on the schedule you choose. See [The task summary email](/hub/accounts/task-summary/).
 
