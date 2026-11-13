@@ -12,12 +12,12 @@ Owners, administrators, the chair and the secretary can add and change committee
 ## Adding a committee
 
 1. Select **Committees** in the side menu.
-2. Type the **Committee name** and, optionally, its **Purpose**, such as *Reviews the budget before each board meeting*.
+2. Type the **Committee name** and, optionally, its **Purpose**, such as _Reviews the budget before each board meeting_.
 3. Select **Add committee**.
 
 ## Adding people
 
-Under a committee, type the person's **Name** and their **Role** (*Chair*, *Member*, *Secretary*…; *Member* if left empty) and select add. Committee members don't need an account: anyone can be listed, including people who aren't on the board.
+Under a committee, type the person's **Name** and their **Role** (_Chair_, _Member_, _Secretary_…; _Member_ if left empty) and select add. Committee members don't need an account: anyone can be listed, including people who aren't on the board.
 
 Remove someone with the remove button next to their name. **Delete committee** removes the committee and its list.
 

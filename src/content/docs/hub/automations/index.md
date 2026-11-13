@@ -10,11 +10,11 @@ sidebar:
 
 There are two kinds of automation, and one related feature that isn't an automation:
 
-| | What it is | Who sets it up | Example |
-|---|---|---|---|
-| **Your workflows** | Automations your organization builds for itself, to fit how it works | Owners, admins, and people they choose | "When a membership is 30 days from ending, email the member and give the treasurer a task" |
-| **Ready-made automations** | Reminders the apps already send, which you can adjust or switch off | Already on; owners and admins can change them | "Email the board 7 days and 1 day before each meeting" |
-| **Notifications** (not an automation) | What OpenAppHub tells each person about: payments that didn't go through, someone joining, a task for you | Nobody builds them; each person chooses what they get | "A payment didn't go through" under the bell |
+|                                       | What it is                                                                                                | Who sets it up                                        | Example                                                                                    |
+| ------------------------------------- | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| **Your workflows**                    | Automations your organization builds for itself, to fit how it works                                      | Owners, admins, and people they choose                | "When a membership is 30 days from ending, email the member and give the treasurer a task" |
+| **Ready-made automations**            | Reminders the apps already send, which you can adjust or switch off                                       | Already on; owners and admins can change them         | "Email the board 7 days and 1 day before each meeting"                                     |
+| **Notifications** (not an automation) | What OpenAppHub tells each person about: payments that didn't go through, someone joining, a task for you | Nobody builds them; each person chooses what they get | "A payment didn't go through" under the bell                                               |
 
 Notifications are explained in [Notifications](/hub/accounts/notifications/). This section is about workflows and the ready-made automations.
 
@@ -26,7 +26,7 @@ A workflow is a short list of instructions: **when** something happens, **do** t
 
 Every workflow has:
 
-- **One thing that starts it** (a *trigger*): something happening in one of your apps, such as a payment, a meeting coming up, or the books being closed for a month; or a schedule, such as every Monday at 9.
+- **One thing that starts it** (a _trigger_): something happening in one of your apps, such as a payment, a meeting coming up, or the books being closed for a month; or a schedule, such as every Monday at 9.
 - **Steps**, in order: send an email, give someone a task, ask for an approval, look something up, add the financial reports to a meeting, and more. Steps can be inside conditions ("only if the amount is over $500"), loops ("for each member whose membership ends this month") and groups.
 
 Anything a step finds or makes can be used by the steps after it. A step that looks up members gives later steps a list of members; a loop goes through that list; an email inside the loop uses each member's name and email address.

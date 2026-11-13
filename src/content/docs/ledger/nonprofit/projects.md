@@ -9,7 +9,7 @@ A **project** is a piece of work with its own budget: a renovation, a summer pro
 
 ## Adding a project
 
-On **Projects**, type the **Project name** (*Summer Food Program*) and its **Budget**, then add it. Owners, admins and treasurers can add projects.
+On **Projects**, type the **Project name** (_Summer Food Program_) and its **Budget**, then add it. Owners, admins and treasurers can add projects.
 
 ## Tagging transactions
 

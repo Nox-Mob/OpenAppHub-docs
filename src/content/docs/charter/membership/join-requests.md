@@ -17,7 +17,7 @@ Each reviewer is told as soon as someone applies, saying who and where: **Pat Le
 
 - **Under the bell**, in every app.
 - **By email**, unless they turned that off ([Notifications](/hub/accounts/notifications/)).
-- On their OpenAppHub **dashboard**, under **Your tasks** (*Review join request: Pat Lee*), and in their [task summary email](/hub/accounts/task-summary/).
+- On their OpenAppHub **dashboard**, under **Your tasks** (_Review join request: Pat Lee_), and in their [task summary email](/hub/accounts/task-summary/).
 
 The person who applied isn't one of the people told, even if they're also a reviewer.
 
@@ -37,4 +37,4 @@ Only pending applications can be approved or declined: once someone has decided,
 
 ## Automating more
 
-Workflows can do more when someone joins: a welcome email, a task to call them. See the *Welcome new members* template ([Templates](/hub/automations/templates/)).
+Workflows can do more when someone joins: a welcome email, a task to call them. See the _Welcome new members_ template ([Templates](/hub/automations/templates/)).

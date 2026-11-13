@@ -7,21 +7,21 @@ sidebar:
 
 **Settings** has a section menu down the left. What each section is for, and who can use it:
 
-| Section | For | Who |
-|---|---|---|
-| **Your preferences** | The wording OpenLedgerApp uses, and the tutorial | Everyone (wording is changed by admins) |
-| **Accounts** | Your chart of accounts: add from a list, archive, make active | Admins and treasurers |
-| **Close** | Close a month, lock or reopen the books, close a fiscal year | Admins and treasurers |
-| **Users & roles** | Who uses the books and their role; invitations; ownership | Admins |
-| **Security** | Two-step sign-in, deleting your account | Everyone, for themselves |
-| **Exports and backup** | Spreadsheets of your transactions; full backup and restore | Backups and restores: admins |
-| **History** | Who changed what | Admins |
-| **Diagnostics** | Health checks for the books and this installation | Admins and treasurers |
-| **Email** | Your notifications and email choices; reminders | Everyone |
+| Section                | For                                                           | Who                                     |
+| ---------------------- | ------------------------------------------------------------- | --------------------------------------- |
+| **Your preferences**   | The wording OpenLedgerApp uses, and the tutorial              | Everyone (wording is changed by admins) |
+| **Accounts**           | Your chart of accounts: add from a list, archive, make active | Admins and treasurers                   |
+| **Close**              | Close a month, lock or reopen the books, close a fiscal year  | Admins and treasurers                   |
+| **Users & roles**      | Who uses the books and their role; invitations; ownership     | Admins                                  |
+| **Security**           | Two-step sign-in, deleting your account                       | Everyone, for themselves                |
+| **Exports and backup** | Spreadsheets of your transactions; full backup and restore    | Backups and restores: admins            |
+| **History**            | Who changed what                                              | Admins                                  |
+| **Diagnostics**        | Health checks for the books and this installation             | Admins and treasurers                   |
+| **Email**              | Your notifications and email choices; reminders               | Everyone                                |
 
 ## Your preferences
 
-**Wording** chooses how OpenLedgerApp names things, from **Simplest** (*Money In*, *Money You Have*) through **Simple** to **Double-entry** (*Revenue*, *Assets*), for each term separately with its own slider. It applies to everyone in the organization, including the reports' names. The full list is in [Transactions](/ledger/everyday/transactions/#the-words-the-app-uses).
+**Wording** chooses how OpenLedgerApp names things, from **Simplest** (_Money In_, _Money You Have_) through **Simple** to **Double-entry** (_Revenue_, _Assets_), for each term separately with its own slider. It applies to everyone in the organization, including the reports' names. The full list is in [Transactions](/ledger/everyday/transactions/#the-words-the-app-uses).
 
 The **tutorial** shows short tips the first time you use each part of OpenLedgerApp; switch it off or on again here.
 

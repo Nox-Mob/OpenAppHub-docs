@@ -37,6 +37,6 @@ On **Budgets**, set a budget for the year or for a month, account by account, th
 ## Categories and tags
 
 - **Categories** add detail under an account (for example, Supplies split into Office and Events). Reports can group by category.
-- **Tags** are flexible labels, several per transaction if you like (for example, *Annual gala*). Use them to find and filter transactions.
+- **Tags** are flexible labels, several per transaction if you like (for example, _Annual gala_). Use them to find and filter transactions.
 
 Archive any of these when you no longer use them; past transactions keep them.

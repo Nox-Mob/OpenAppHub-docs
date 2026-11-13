@@ -14,12 +14,12 @@ Owners, administrators, the chair and the secretary can create and change templa
 1. Select **Meeting templates** in the side menu, then **New template**.
 2. Fill in:
 
-| Field | |
-|---|---|
-| **Template name** | How you'll find it, such as *Annual general meeting* or *Monthly board meeting* |
-| **Meeting title** | The title each meeting gets |
-| **Start time**, **Location** | Optional; you can change them per meeting |
-| **Agenda** | One item per line, as `Title \| Presenter \| Minutes`. Presenter and minutes are optional |
+| Field                        |                                                                                           |
+| ---------------------------- | ----------------------------------------------------------------------------------------- |
+| **Template name**            | How you'll find it, such as _Annual general meeting_ or _Monthly board meeting_           |
+| **Meeting title**            | The title each meeting gets                                                               |
+| **Start time**, **Location** | Optional; you can change them per meeting                                                 |
+| **Agenda**                   | One item per line, as `Title \| Presenter \| Minutes`. Presenter and minutes are optional |
 
 For example:
 

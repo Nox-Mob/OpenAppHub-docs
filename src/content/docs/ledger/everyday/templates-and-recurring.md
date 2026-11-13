@@ -11,14 +11,14 @@ sidebar:
 
 Select **Templates**, then **New template**:
 
-| Field | |
-|---|---|
-| **Name** | How you'll find it, such as *Monthly rent* |
-| Description | What each transaction will say, such as *Rent* (required) |
-| **Accounts** | Where the money comes from and where it goes: two different accounts |
-| **Amount** | The usual amount; you can change it each time |
-| **Repeats** | **Doesn't repeat**, **Every week**, **Every month**, **Every 3 months** or **Every year** |
-| **Next due** | For a repeating one, the next date it's due |
+| Field        |                                                                                           |
+| ------------ | ----------------------------------------------------------------------------------------- |
+| **Name**     | How you'll find it, such as _Monthly rent_                                                |
+| Description  | What each transaction will say, such as _Rent_ (required)                                 |
+| **Accounts** | Where the money comes from and where it goes: two different accounts                      |
+| **Amount**   | The usual amount; you can change it each time                                             |
+| **Repeats**  | **Doesn't repeat**, **Every week**, **Every month**, **Every 3 months** or **Every year** |
+| **Next due** | For a repeating one, the next date it's due                                               |
 
 ## When a recurring one is due
 

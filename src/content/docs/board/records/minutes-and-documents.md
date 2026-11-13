@@ -9,11 +9,11 @@ sidebar:
 
 On a meeting's **Minutes** tab, generate a draft from the meeting (attendance, motions and results, notes against each agenda item), then edit it.
 
-| Status | Meaning | Who |
-|---|---|---|
-| **Draft** | Being written. **Save draft** as often as you like | Owners, admins, chair, secretary |
-| **Submitted** | Ready for the board to review (**Submit for approval**). **Return to draft** to change it | Same |
-| **Approved** | **Approve as official minutes**: the official record. Who approved and when is recorded | Owners, admins, chair, secretary |
+| Status        | Meaning                                                                                   | Who                              |
+| ------------- | ----------------------------------------------------------------------------------------- | -------------------------------- |
+| **Draft**     | Being written. **Save draft** as often as you like                                        | Owners, admins, chair, secretary |
+| **Submitted** | Ready for the board to review (**Submit for approval**). **Return to draft** to change it | Same                             |
+| **Approved**  | **Approve as official minutes**: the official record. Who approved and when is recorded   | Owners, admins, chair, secretary |
 
 Approved minutes are locked: they, and the meeting's motions and attendance, can't be changed or deleted. To correct approved minutes, add an **amended version** and approve it; the earlier version is marked **superseded** and stays readable.
 

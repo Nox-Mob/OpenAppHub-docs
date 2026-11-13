@@ -9,7 +9,7 @@ sidebar:
 
 **Owner**: the one person who can delete the organization or transfer ownership.
 
-**Role**: what someone can do in an organization: owner, admin, member or viewer.
+**Role**: what someone can do in an organization: owner, admin, member or viewer, set for OpenAppHub and for each app. In an app, a person can also have **No access**, which keeps them out of it.
 
 **Invitation**: a single-use link that lets someone join an organization. Expires after 14 days.
 
@@ -25,7 +25,7 @@ sidebar:
 
 **Workflow**: an automation your organization builds: when something happens (or on a schedule), do these steps. See [Automations](/hub/automations/).
 
-**Trigger**: what starts a workflow, such as *A payment is received* or *On a schedule*. See [What starts a workflow](/hub/automations/triggers/).
+**Trigger**: what starts a workflow, such as _A payment is received_ or _On a schedule_. See [What starts a workflow](/hub/automations/triggers/).
 
 **Step**: one thing a workflow does: send an email, give a task, ask for approval, look something up. See [Steps reference](/hub/automations/steps/).
 
@@ -39,6 +39,6 @@ sidebar:
 
 **Action from email**: a button in an email (Approve, Decline, Mark it done) that does it after you sign in and confirm, when your organization allows it. See [Actions from email](/hub/automations/actions-from-email/).
 
-**Named role**: a role your organization defines, such as *Treasurer*, that sets someone's role in each app. See [Organizations and roles](/hub/accounts/organizations-and-roles/).
+**Named role**: a role your organization defines, such as _Treasurer_, that sets someone's role in each app. See [Organizations and roles](/hub/accounts/organizations-and-roles/).
 
 **Default organization**: the organization that opens first when you sign in, chosen on your account page.

@@ -38,7 +38,7 @@ The app's own rules still apply, so you only see these buttons where you're allo
 - **OpenBoardApp:** action items assigned to you.
 - **OpenCharterApp:** join requests to review, required board seats that are empty, and renewals coming due.
 - **OpenLedgerApp:** recurring entries due within a week.
-- **Workflows:** tasks your organization's workflows gave you, and **approvals waiting for you** (*An award submission from Pat Lee: pending your approval*). An approval opens its page, where you approve or decline ([Approvals](/hub/automations/approvals/)).
+- **Workflows:** tasks your organization's workflows gave you, and **approvals waiting for you** (_An award submission from Pat Lee: pending your approval_). An approval opens its page, where you approve or decline ([Approvals](/hub/automations/approvals/)).
 
 ## The rest of the page
 

@@ -16,14 +16,14 @@ A standalone association simply has its own members, levels and dues. More: [Cha
 
 ## Levels and terms
 
-A **level** is a kind of membership, like *Regular*, *Family* or *Life*. Each level has one or more **terms**: how long a membership lasts and what it costs. Find them under **Settings** > **Membership levels**.
+A **level** is a kind of membership, like _Regular_, _Family_ or _Life_. Each level has one or more **terms**: how long a membership lasts and what it costs. Find them under **Settings** > **Membership levels**.
 
-| Field | Meaning |
-|---|---|
-| **Level name** | What members see, for example *Regular member* |
-| **Description** | A sentence or two on the join page about who it's for |
-| **Tax treatment** | What receipts for this level say about taxes: **Tax-deductible**, **Partly tax-deductible** or **Not tax-deductible**. Choose tax-deductible only if your organization can accept deductible gifts (for example a 501(c)(3)) and members get nothing of value in return; ask your accountant if you're not sure. See [receipts](/charter/money/payments/#receipts) |
-| **Terms and prices** | One line per term: a length (a number of months or years, or **Lifetime**, which never expires), a label (*1 year*) and a price. Add as many as you offer, for example *1 year $40* and *3 years $100* |
+| Field                | Meaning                                                                                                                                                                                                                                                                                                                                                            |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Level name**       | What members see, for example _Regular member_                                                                                                                                                                                                                                                                                                                     |
+| **Description**      | A sentence or two on the join page about who it's for                                                                                                                                                                                                                                                                                                              |
+| **Tax treatment**    | What receipts for this level say about taxes: **Tax-deductible**, **Partly tax-deductible** or **Not tax-deductible**. Choose tax-deductible only if your organization can accept deductible gifts (for example a 501(c)(3)) and members get nothing of value in return; ask your accountant if you're not sure. See [receipts](/charter/money/payments/#receipts) |
+| **Terms and prices** | One line per term: a length (a number of months or years, or **Lifetime**, which never expires), a label (_1 year_) and a price. Add as many as you offer, for example _1 year $40_ and _3 years $100_                                                                                                                                                             |
 
 You can retire a level or term you no longer offer; existing members keep theirs until it ends.
 

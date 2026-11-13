@@ -17,18 +17,18 @@ You see your own notifications only, from every organization you belong to. They
 
 ## What you're told about
 
-| Notification | Who gets it, unless they turn it off | Who else can turn it on |
-|---|---|---|
-| **Your trial is ending**: three days before the free trial ends, and again the day before | The owner, and the billing contact by email | Admins |
-| **A payment didn't go through** | The owner, and the billing contact by email | Admins |
-| **The plan changed**: a new plan or apps, the plan set to end, or ended | The owner, and the billing contact by email | Admins |
-| **Someone joined** the organization | The owner | Admins |
-| **Someone left** the organization | The owner | Admins |
-| **Someone's role changed**: in OpenAppHub, their named role, or their role in an app | The owner | Admins |
-| **A task is waiting for you**: a workflow gave you a task (the email says what it is, and may have a **Mark it done** button) | You | — |
-| **Something is waiting for your approval**: a workflow asks you to approve or decline something, such as *An award submission is pending your approval* ([Approvals](/hub/automations/approvals/)) | The people asked | — |
-| **Someone asked to join** (OpenCharterApp): *Pat Lee has asked to join Riverside. This is pending your approval* ([Reviewing join requests](/charter/membership/join-requests/)) | The people who review applications there | — |
-| **A workflow couldn't finish** | The owner | Admins |
+| Notification                                                                                                                                                                                       | Who gets it, unless they turn it off        | Who else can turn it on |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- | ----------------------- |
+| **Your trial is ending**: three days before the free trial ends, and again the day before                                                                                                          | The owner, and the billing contact by email | Admins                  |
+| **A payment didn't go through**                                                                                                                                                                    | The owner, and the billing contact by email | Admins                  |
+| **The plan changed**: a new plan or apps, the plan set to end, or ended                                                                                                                            | The owner, and the billing contact by email | Admins                  |
+| **Someone joined** the organization                                                                                                                                                                | The owner                                   | Admins                  |
+| **Someone left** the organization                                                                                                                                                                  | The owner                                   | Admins                  |
+| **Someone's role changed**: in OpenAppHub, their named role, or their role in an app                                                                                                               | The owner                                   | Admins                  |
+| **A task is waiting for you**: a workflow gave you a task (the email says what it is, and may have a **Mark it done** button)                                                                      | You                                         | —                       |
+| **Something is waiting for your approval**: a workflow asks you to approve or decline something, such as _An award submission is pending your approval_ ([Approvals](/hub/automations/approvals/)) | The people asked                            | —                       |
+| **Someone asked to join** (OpenCharterApp): _Pat Lee has asked to join Riverside. This is pending your approval_ ([Reviewing join requests](/charter/membership/join-requests/))                   | The people who review applications there    | —                       |
+| **A workflow couldn't finish**                                                                                                                                                                     | The owner                                   | Admins                  |
 
 You aren't told about something you did yourself: an owner who adds someone isn't notified that they joined.
 

@@ -16,19 +16,21 @@ Under **Settings**:
 
 Every Settings section is described in [Settings](/ledger/admin/settings/).
 
-| Role | Can |
-|---|---|
-| **Admin** | Everything (owners and admins of the organization) |
-| **Treasurer** | A member who can also close the books |
-| **Member** | Record and change transactions |
-| **View only** | See, but not change |
+| Role          | Can                                                |
+| ------------- | -------------------------------------------------- |
+| **Admin**     | Everything (owners and admins of the organization) |
+| **Treasurer** | A member who can also close the books              |
+| **Member**    | Record and change transactions                     |
+| **View only** | See, but not change                                |
 
 Each person's OpenLedgerApp role is separate from their OpenAppHub role: an OpenAppHub admin isn't a Ledger
 admin unless given that role. Changing someone's role under **Users & roles** changes it in OpenLedgerApp
 only. On OpenAppHub's **Members** page you can set it for every app at once, or give a named role that sets
 it ([Roles](/hub/accounts/organizations-and-roles/#roles)); a named role can also let a member close the
 books without being the treasurer. Anyone with nothing set can view only. A treasurer needs a member role
-in OpenLedgerApp.
+in OpenLedgerApp. If your organization lets app admins change roles in their own app, OpenLedgerApp admins can change
+roles here too. On OpenAppHub you can give someone **No access** to OpenLedgerApp, for example a
+volunteer who shouldn't see the books ([No access](/hub/accounts/organizations-and-roles/#no-access)).
 
 ## The first time you open OpenLedgerApp
 

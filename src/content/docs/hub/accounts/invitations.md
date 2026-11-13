@@ -16,8 +16,8 @@ Owners and admins can invite people:
 2. Under **Invite someone**, enter their **Email** and choose:
    - their **Role in OpenAppHub** (Admin, Member or Viewer);
    - a **Named role**, if your organization has any;
-   - their **Role in each app**. Each says what the named role gives (for example *From Treasurer:
-     Admin*), or **Not set: viewer**. Anything you leave unset is view-only, and you can change it later.
+   - their **Role in each app**. Each says what the named role gives (for example _From Treasurer:
+     Admin_), or **Not set: viewer**. Anything you leave unset is view-only, and you can change it later.
 3. Select **Send invitation**.
 
 The roles in OpenAppHub and in each app are separate ([Roles](/hub/accounts/organizations-and-roles/#roles)).
@@ -42,9 +42,9 @@ If the invitation is for one app (for example OpenCharterApp), the link takes yo
 
 ## If the link doesn't work
 
-| Message | What to do |
-|---|---|
-| **This invitation link isn't valid** | Check you copied the whole link, or ask for a new invitation. |
-| **This invitation has expired** | Ask the person who invited you to send a new one. |
-| **This invitation was cancelled** | Ask for a new invitation. |
-| **This invitation has already been used** | Each invitation works once. If it was yours, just sign in. |
+| Message                                   | What to do                                                    |
+| ----------------------------------------- | ------------------------------------------------------------- |
+| **This invitation link isn't valid**      | Check you copied the whole link, or ask for a new invitation. |
+| **This invitation has expired**           | Ask the person who invited you to send a new one.             |
+| **This invitation was cancelled**         | Ask for a new invitation.                                     |
+| **This invitation has already been used** | Each invitation works once. If it was yours, just sign in.    |

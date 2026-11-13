@@ -35,15 +35,15 @@ The full guide: [Templates and recurring transactions](/ledger/everyday/template
 
 Under **Settings**, **Wording** chooses how OpenLedgerApp talks, for everyone in your organization (owners and admins choose):
 
-| Concept | Simplest | Simple | Double-entry |
-|---|---|---|---|
-| What you own | Money You Have | Accounts | Assets |
-| What you owe | Money You Owe | Debts | Liabilities |
-| What's left over | What's Yours (nonprofits: Net Assets) | Owner's Equity (Net Assets) | Equity (Net Assets) |
-| Money coming in | Money In | Income | Revenue (nonprofits: Revenue & Support) |
-| Money going out | Money Out | Expenses | Expenses |
-| Entry sides | Increase / Decrease | Increase / Decrease | Debit / Credit |
-| Income report | Income Statement (nonprofits: Money In & Out) | Income Statement (Income & Expenses) | Profit & Loss (Statement of Activities) |
-| Position report | What You Have & Owe | Accounts Summary | Balance Sheet (Statement of Financial Position) |
+| Concept          | Simplest                                      | Simple                               | Double-entry                                    |
+| ---------------- | --------------------------------------------- | ------------------------------------ | ----------------------------------------------- |
+| What you own     | Money You Have                                | Accounts                             | Assets                                          |
+| What you owe     | Money You Owe                                 | Debts                                | Liabilities                                     |
+| What's left over | What's Yours (nonprofits: Net Assets)         | Owner's Equity (Net Assets)          | Equity (Net Assets)                             |
+| Money coming in  | Money In                                      | Income                               | Revenue (nonprofits: Revenue & Support)         |
+| Money going out  | Money Out                                     | Expenses                             | Expenses                                        |
+| Entry sides      | Increase / Decrease                           | Increase / Decrease                  | Debit / Credit                                  |
+| Income report    | Income Statement (nonprofits: Money In & Out) | Income Statement (Income & Expenses) | Profit & Loss (Statement of Activities)         |
+| Position report  | What You Have & Owe                           | Accounts Summary                     | Balance Sheet (Statement of Financial Position) |
 
 The books are the same whichever you choose; only the words change. You can also rename single terms.

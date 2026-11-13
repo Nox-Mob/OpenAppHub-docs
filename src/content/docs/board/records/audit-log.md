@@ -7,14 +7,14 @@ sidebar:
 
 Every change to the board's records is recorded: meetings, agenda items, attendance, motions and votes, minutes, documents, action items, terms and committees. The **Audit log** shows them, newest first.
 
-| Column | |
-|---|---|
-| **When** | Date and time, in your organization's time zone |
-| **Who** | The person who made the change |
-| **Action** | Added, changed or deleted |
-| **Record** | What kind of record, such as *Meeting*, *Motion* or *Action item*, and which one |
+| Column     |                                                                                  |
+| ---------- | -------------------------------------------------------------------------------- |
+| **When**   | Date and time, in your organization's time zone                                  |
+| **Who**    | The person who made the change                                                   |
+| **Action** | Added, changed or deleted                                                        |
+| **Record** | What kind of record, such as _Meeting_, _Motion_ or _Action item_, and which one |
 
-**Who can see it:** owners, administrators, the chair and the secretary. Others see *Only officers can view the audit log*.
+**Who can see it:** owners, administrators, the chair and the secretary. Others see _Only officers can view the audit log_.
 
 The log can't be edited or deleted, by anyone. It stays readable even when your plan makes OpenBoardApp read-only.
 
