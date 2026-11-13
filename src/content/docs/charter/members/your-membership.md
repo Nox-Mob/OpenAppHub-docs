@@ -11,14 +11,14 @@ This page is for **members**: what you see when you sign in to your organization
 
 **Your membership** shows your level, your standing and when your membership ends:
 
-| You see | Meaning |
-|---|---|
-| Active, with an end date | You're a member in good standing until then |
-| **Lifetime membership** | It never ends |
-| Ending soon: *Renew below to keep it* | Renew now; the time is added from your current end date, so nothing is lost |
-| Lapsed: *Renew below to restart it* | Your membership ended; renewing starts a new term |
-| *Contact the organization to renew* | Your organization doesn't take renewals online for your level |
-| *An admin will review your application* | You've applied and are waiting for approval ([Reviewing join requests](/charter/membership/join-requests/)) |
+| You see                                 | Meaning                                                                                                     |
+| --------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| Active, with an end date                | You're a member in good standing until then                                                                 |
+| **Lifetime membership**                 | It never ends                                                                                               |
+| Ending soon: _Renew below to keep it_   | Renew now; the time is added from your current end date, so nothing is lost                                 |
+| Lapsed: _Renew below to restart it_     | Your membership ended; renewing starts a new term                                                           |
+| _Contact the organization to renew_     | Your organization doesn't take renewals online for your level                                               |
+| _An admin will review your application_ | You've applied and are waiting for approval ([Reviewing join requests](/charter/membership/join-requests/)) |
 
 ## Renewing
 

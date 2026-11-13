@@ -11,11 +11,11 @@ A national (or any organization with chapters) runs its chapters in OpenCharterA
 
 The national chooses, in OpenCharterApp under **Board settings** > **Chapters on OpenBoardApp**:
 
-| Choice | What happens |
-|---|---|
+| Choice                                          | What happens                                                                                                                                                                                                                                            |
+| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Chapters ask, and you approve** (the default) | A chapter admin selects **Ask to use OpenBoardApp** on the chapter's **Board** tab. The national's owners and admins get an email and approve or decline it on the same **Board settings** page (a declined chapter sees the reason, and can ask again) |
-| **Any chapter can turn it on** | A chapter admin selects **Use OpenBoardApp** and it's ready straight away |
-| **Chapters can't use OpenBoardApp** | Chapters don't see the option |
+| **Any chapter can turn it on**                  | A chapter admin selects **Use OpenBoardApp** and it's ready straight away                                                                                                                                                                               |
+| **Chapters can't use OpenBoardApp**             | Chapters don't see the option                                                                                                                                                                                                                           |
 
 Once it's approved (or turned on), OpenAppHub creates the chapter's organization automatically. The chapter admin who asked becomes its **owner**, and the national's owners become its **admins**, so the national can always help.
 

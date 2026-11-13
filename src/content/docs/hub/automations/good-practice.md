@@ -17,19 +17,19 @@ Prefer a [template](/hub/automations/templates/) or a [ready-made reminder](/hub
 
 ## Choose the right trigger
 
-| You want | Use |
-|---|---|
-| To react to something as it happens | The app's event: *A payment is received*, *Someone becomes a member* |
-| To act some time before or after something | *A board meeting is coming up* (days before), *An action item is overdue* (days after) |
-| To act on many things at once, regularly | *On a schedule* plus a lookup, such as *Find members* ending within 30 days |
+| You want                                   | Use                                                                                    |
+| ------------------------------------------ | -------------------------------------------------------------------------------------- |
+| To react to something as it happens        | The app's event: _A payment is received_, _Someone becomes a member_                   |
+| To act some time before or after something | _A board meeting is coming up_ (days before), _An action item is overdue_ (days after) |
+| To act on many things at once, regularly   | _On a schedule_ plus a lookup, such as _Find members_ ending within 30 days            |
 
 A schedule with a lookup is the most flexible pattern: "every Monday, find …, for each …". Make the lookup's window match the schedule (weekly runs, a 6-day window) so each thing is acted on once.
 
 ## Name everything
 
-- Give the workflow a name that says what it does: *Renewal reminder, 30 days*, not *Workflow 3*.
-- Name every step whose results you use: *Ending soon*, *Month totals*, *Award OK*. **In plain words** and **Insert data** become much easier to read.
-- Use the description to say *why* it exists and who asked for it.
+- Give the workflow a name that says what it does: _Renewal reminder, 30 days_, not _Workflow 3_.
+- Name every step whose results you use: _Ending soon_, _Month totals_, _Award OK_. **In plain words** and **Insert data** become much easier to read.
+- Use the description to say _why_ it exists and who asked for it.
 
 ## Send to roles, not people
 
@@ -37,19 +37,19 @@ Use **Whoever holds a board seat** or **An officer of the board** rather than **
 
 ## Write emails people will act on
 
-- Put the action in the subject: *Your membership ends on 30 November*, not *Membership update*.
+- Put the action in the subject: _Your membership ends on 30 November_, not _Membership update_.
 - Say who it's from and why they're getting it, in the first line.
 - Insert the data that makes it personal (name, date, amount) and check how it reads in **In plain words**.
 - Keep it short. Link to where they act rather than explaining everything.
-- For approvals, write **What needs approving** so it makes sense alone: *A reimbursement of $120 for Pat Lee*.
+- For approvals, write **What needs approving** so it makes sense alone: _A reimbursement of $120 for Pat Lee_.
 
 ## Expect missing information
 
 Members without a chapter, meetings without a start time, seats nobody holds. For anything the workflow depends on:
 
-- Check it with a condition (*is filled in*) before using it, or
+- Check it with a condition (_is filled in_) before using it, or
 - Add a step that runs **after the step failed** to tell someone instead, and
-- Give the approval a **time limit**, with a path for *timed_out*.
+- Give the approval a **time limit**, with a path for _timed_out_.
 
 ## Test with real data, then watch
 

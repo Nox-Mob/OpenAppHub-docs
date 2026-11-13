@@ -18,10 +18,10 @@ Each meeting has tabs that follow the meeting's life:
 
 On **Meetings**, select **New meeting** and fill in:
 
-| Field | Notes |
-|---|---|
-| **Start from** | A [meeting template](#meeting-templates), or the standard agenda (call to order, approval of previous minutes, treasurer's report, old business, new business, adjournment) |
-| **Title**, **Date**, **Start time**, **Location** | The time is in your organization's time zone (**Settings & export**) |
+| Field                                             | Notes                                                                                                                                                                       |
+| ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Start from**                                    | A [meeting template](#meeting-templates), or the standard agenda (call to order, approval of previous minutes, treasurer's report, old business, new business, adjournment) |
+| **Title**, **Date**, **Start time**, **Location** | The time is in your organization's time zone (**Settings & export**)                                                                                                        |
 
 The meeting and its starting agenda are saved together: you never get a meeting without its agenda. Change the agenda freely afterwards.
 
@@ -37,7 +37,7 @@ Mark an agenda item as a **vote item** to prepare a motion in advance (the **pro
 
 ## The board packet
 
-On **Board packet**, choose the documents to include (the agenda is always first) and select **Generate packet PDF**. Each PDF you build is kept as a new version (*Packet v1*, *v2*…) with a list of what's in it. **Mark as distributed** records that you sent it to the board, by email or on paper; it doesn't send anything itself.
+On **Board packet**, choose the documents to include (the agenda is always first) and select **Generate packet PDF**. Each PDF you build is kept as a new version (_Packet v1_, _v2_…) with a list of what's in it. **Mark as distributed** records that you sent it to the board, by email or on paper; it doesn't send anything itself.
 
 Reports from the other apps can go straight in: in OpenCharterApp (**Reports**) and OpenLedgerApp (reports), **Add to a board package** sends that report as a PDF to an upcoming meeting's documents, ready for its next packet.
 

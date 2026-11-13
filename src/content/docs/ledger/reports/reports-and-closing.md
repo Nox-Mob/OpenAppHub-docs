@@ -9,13 +9,13 @@ sidebar:
 
 **Reports** has the standard reports, named in [the wording your organization chose](/ledger/everyday/transactions/#the-words-the-app-uses):
 
-| Report | Shows |
-|---|---|
-| **Income report** (Profit & Loss / Statement of Activities) | Money in and out for a period, and the bottom line |
+| Report                                                                | Shows                                                     |
+| --------------------------------------------------------------------- | --------------------------------------------------------- |
+| **Income report** (Profit & Loss / Statement of Activities)           | Money in and out for a period, and the bottom line        |
 | **Position report** (Balance Sheet / Statement of Financial Position) | What you own, what you owe and what's left over on a date |
-| **Fund report** | Each fund's activity and balance |
-| **Totals check** (Trial Balance) | Every account's total, which must balance |
-| **Every transaction** (General Ledger) | Each account's transactions in order |
+| **Fund report**                                                       | Each fund's activity and balance                          |
+| **Totals check** (Trial Balance)                                      | Every account's total, which must balance                 |
+| **Every transaction** (General Ledger)                                | Each account's transactions in order                      |
 
 Download a report as a spreadsheet, or **Board package (PDF)** for the board.
 

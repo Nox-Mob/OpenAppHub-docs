@@ -17,20 +17,21 @@ OpenAppHub admin.
 
 ### In OpenAppHub
 
-| Role | Can |
-|---|---|
-| **Owner** | Everything, in OpenAppHub and in every app, including deleting the organization and transferring ownership. Exactly one per organization. |
-| **Admin** | Manage people, invitations, named roles, billing and the organization's settings. |
-| **Member** | See the dashboard and their tasks. |
-| **Viewer** | See the dashboard. |
+| Role       | Can                                                                                                                                       |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| **Owner**  | Everything, in OpenAppHub and in every app, including deleting the organization and transferring ownership. Exactly one per organization. |
+| **Admin**  | Manage people, invitations, named roles, billing and the organization's settings.                                                         |
+| **Member** | See the dashboard and their tasks.                                                                                                        |
+| **Viewer** | See the dashboard.                                                                                                                        |
 
 ### In each app
 
-| Role | Can, in that app |
-|---|---|
-| **Admin** | Everything, including the app's settings |
-| **Member** | Use the app and make changes |
-| **Viewer** | See, but not change |
+| Role          | Can, in that app                         |
+| ------------- | ---------------------------------------- |
+| **Admin**     | Everything, including the app's settings |
+| **Member**    | Use the app and make changes             |
+| **Viewer**    | See, but not change                      |
+| **No access** | Can't open the app at all                |
 
 Someone's role in an app comes from, in order:
 
@@ -43,9 +44,30 @@ Someone's role in an app comes from, in order:
 For example: an admin in OpenBoardApp but view-only in OpenLedgerApp; or a member in OpenCharterApp and
 OpenBoardApp but an admin in OpenLedgerApp.
 
+#### No access
+
+Choose **No access** for a person in an app (or in a named role) to keep them out of it, for example a
+volunteer who helps with events in OpenBoardApp but shouldn't see the books in OpenLedgerApp:
+
+- The app isn't on their OpenAppHub dashboard, and if they open it, it doesn't list your organization.
+  They can't read anything in it, and its tasks and notifications don't reach them.
+- They stay in your organization, with their roles in the other apps.
+- The owner always has access to every app, and nobody can take their own access away.
+- Invitations offer the apps' roles only: invite the person, then choose **No access** for them.
+- In OpenCharterApp, someone with No access who is also a **member** of your organization still sees
+  their own membership and can renew it, like any member. They can't see anyone else's.
+
+#### Who changes roles in an app
+
+The owner and OpenAppHub admins. If you want each app's admins to look after their own app (for
+example the treasurer, as the OpenLedgerApp admin, deciding who sees the books), switch on **App admins
+may change people's roles in their own app** in [Organization settings](#organization-settings). With it
+on, an app's admins can change anyone's role in that app, including No access, but not the owner's, not
+their own access, and never named roles or OpenAppHub roles. It's off unless you switch it on.
+
 ### Named roles
 
-A **named role** is a role you name, like *Treasurer*, that says what it can do in each app at once: for
+A **named role** is a role you name, like _Treasurer_, that says what it can do in each app at once: for
 example admin in OpenLedgerApp, member in OpenBoardApp and OpenCharterApp. It can also give **extra
 permissions** an app offers, without making the person an admin there. For example, a member in
 OpenCharterApp who may see payments, or a member in OpenBoardApp who may edit the official record.
@@ -56,11 +78,11 @@ OpenCharterApp who may see payments, or a member in OpenBoardApp who may edit th
 - Changing a named role changes it for everyone who holds it. Deleting one leaves its people as viewers,
   except where something is set for them in a single app.
 
-| App | Extra permissions a named role can give |
-|---|---|
+| App            | Extra permissions a named role can give                                                                                                               |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | OpenCharterApp | Any of its permissions, such as seeing or recording payments, managing members, appointing officers. They apply in every chapter of the organization. |
-| OpenBoardApp | Edit the official record (what the chair and secretary can do); read the audit log; manage the board |
-| OpenLedgerApp | Close the books (what a treasurer can do); manage the books |
+| OpenBoardApp   | Edit the official record (what the chair and secretary can do); read the audit log; manage the board                                                  |
+| OpenLedgerApp  | Close the books (what a treasurer can do); manage the books                                                                                           |
 
 Apps also have their own roles on top, set in the app: a board's chair or secretary, a treasurer, a
 chapter's president. They show under the person's role on the Members page.
@@ -95,13 +117,14 @@ Owners and admins change OpenAppHub roles on the **Members** page. Anyone except
 
 Open **Settings** in the side menu.
 
-| Setting | Who can change it | What it does |
-|---|---|---|
-| **Name** | Owner or admin | Shown in every app. |
-| **Time zone and currency** | Owner or admin (others see them) | Every app shows dates in this time zone and money in this currency. |
-| **Billing contact** | Owner or admin | Where invoices and receipts go, if not to the owner, plus an optional name for invoices. It also gets billing [notifications](/hub/accounts/notifications/) by email. |
-| **Automations** | — | A link to the [Automations](/hub/automations/) page. |
-| **Actions from email** | Owner or admin (others see them) | Which actions people may take straight from an email: finish workflow tasks, answer approvals, approve or decline join requests, mark action items done. Each is off until switched on. See [Actions from email](/hub/automations/actions-from-email/). |
+| Setting                    | Who can change it                | What it does                                                                                                                                                                                                                                            |
+| -------------------------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Name**                   | Owner or admin                   | Shown in every app.                                                                                                                                                                                                                                     |
+| **Time zone and currency** | Owner or admin (others see them) | Every app shows dates in this time zone and money in this currency.                                                                                                                                                                                     |
+| **Billing contact**        | Owner or admin                   | Where invoices and receipts go, if not to the owner, plus an optional name for invoices. It also gets billing [notifications](/hub/accounts/notifications/) by email.                                                                                   |
+| **Automations**            | —                                | A link to the [Automations](/hub/automations/) page.                                                                                                                                                                                                    |
+| **Roles in the apps**      | Owner or admin (others see it)   | Whether each app's admins may change people's roles in that app. Off unless switched on. See [Who changes roles in an app](#who-changes-roles-in-an-app).                                                                                               |
+| **Actions from email**     | Owner or admin (others see them) | Which actions people may take straight from an email: finish workflow tasks, answer approvals, approve or decline join requests, mark action items done. Each is off until switched on. See [Actions from email](/hub/automations/actions-from-email/). |
 
 ## Transferring ownership
 

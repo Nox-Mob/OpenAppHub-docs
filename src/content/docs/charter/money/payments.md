@@ -33,11 +33,11 @@ Every payment gets a receipt with its own number, in order, per organization. Op
 
 A receipt shows your organization's name and address, the member, what was paid for, the amount and method, your **Receipt footer** (for example a thank-you), and a sentence about taxes:
 
-| The membership level's **Tax treatment** | The receipt says |
-|---|---|
-| **Tax-deductible** | No goods or services were provided in exchange for this payment. It may be tax-deductible to the extent allowed by law. |
-| **Partly tax-deductible** | Part of this payment may be tax-deductible. Please consult your tax advisor. |
-| **Not tax-deductible** | This payment is not tax-deductible as a charitable contribution. |
+| The membership level's **Tax treatment** | The receipt says                                                                                                        |
+| ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| **Tax-deductible**                       | No goods or services were provided in exchange for this payment. It may be tax-deductible to the extent allowed by law. |
+| **Partly tax-deductible**                | Part of this payment may be tax-deductible. Please consult your tax advisor.                                            |
+| **Not tax-deductible**                   | This payment is not tax-deductible as a charitable contribution.                                                        |
 
 If your organization isn't tax-exempt, turn off **Tax-exempt organization** in **Settings** > **General**: every receipt then says the payment is not tax-deductible, whatever the level's tax treatment. Fill in your **Tax profile** (legal name, EIN, tax status such as 501(c)(3), and address) in **Settings** > **General** so they print on receipts.
 

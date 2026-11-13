@@ -8,11 +8,11 @@ sidebar:
 Every organization starts with a **30-day free trial** of every app, with up to 10 editors. No card needed.
 After that, choose one plan for the organization, paid monthly or yearly in US dollars.
 
-| Plan | Apps | Editors | Monthly | Yearly |
-|---|---|---|---|---|
-| Starter | 1 app of your choice | up to 5 | $5 | $50 |
-| Suite | all three | up to 15 | $10 | $100 |
-| Plus | all three | unlimited | $25 | $250 |
+| Plan    | Apps                 | Editors   | Monthly | Yearly |
+| ------- | -------------------- | --------- | ------- | ------ |
+| Starter | 1 app of your choice | up to 5   | $5      | $50    |
+| Suite   | all three            | up to 15  | $10     | $100   |
+| Plus    | all three            | unlimited | $25     | $250   |
 
 **Editors** are the owner, OpenAppHub admins, and anyone who is a member or admin in at least one app
 ([roles](/hub/accounts/organizations-and-roles/#roles)). People who are viewers everywhere don't count, and

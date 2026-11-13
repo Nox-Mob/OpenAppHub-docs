@@ -17,7 +17,7 @@ No email? See [Signing in](/hub/accounts/signing-in/#no-confirmation-email).
 
 After you confirm your email, OpenAppHub walks you through four steps. You can change everything later.
 
-1. **Your organization.** Enter its name (for example *Riverside Community Association*). You become its
+1. **Your organization.** Enter its name (for example _Riverside Community Association_). You become its
    **owner**.
 2. **Time zone and currency.** We guess both from your browser. Every app shows your organization's dates
    in this time zone and its money in this currency. The preview shows how they'll look.

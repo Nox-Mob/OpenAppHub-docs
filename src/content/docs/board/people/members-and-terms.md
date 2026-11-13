@@ -12,16 +12,16 @@ Under **Members & terms**, keep the board roster, its roles (seats) and each per
 Everyone in your organization has one role in OpenBoardApp, separate from their OpenAppHub role. Owners
 and OpenAppHub admins set it on **Members & terms** (it changes OpenBoardApp only), or for every app at once
 on OpenAppHub's **Members** page, where a named role can set it too
-([Roles](/hub/accounts/organizations-and-roles/#roles)). Anyone with nothing set is an observer.
+([Roles](/hub/accounts/organizations-and-roles/#roles)). Anyone with nothing set is an observer. If your organization lets app admins change roles in their own app, OpenBoardApp admins can too. On OpenAppHub you can also give someone **No access** to OpenBoardApp, which keeps them out of it entirely ([No access](/hub/accounts/organizations-and-roles/#no-access)).
 
-| Role | Can |
-|---|---|
-| **Owner** | Everything, including transferring ownership |
-| **Administrator** | Everything except transferring ownership: settings, inviting people, exports |
+| Role                     | Can                                                                                                                           |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| **Owner**                | Everything, including transferring ownership                                                                                  |
+| **Administrator**        | Everything except transferring ownership: settings, inviting people, exports                                                  |
 | **Chair**, **Secretary** | Edit the official record (meetings, agendas, attendance, motions, minutes, documents) and approve minutes; read the audit log |
-| **Treasurer** | Read everything |
-| **Board member** | Read everything, and vote in live votes they're eligible for |
-| **Observer** | Read everything; never votes |
+| **Treasurer**            | Read everything                                                                                                               |
+| **Board member**         | Read everything, and vote in live votes they're eligible for                                                                  |
+| **Observer**             | Read everything; never votes                                                                                                  |
 
 An office (chair, secretary, treasurer) needs a member role in OpenBoardApp. A named role can also let a
 board member edit the official record, read the audit log or manage the board without holding an office.
@@ -29,7 +29,7 @@ Inviting someone from OpenBoardApp makes them an OpenAppHub member with the Open
 
 ## Board roles and terms
 
-A **board role** is a seat on the board, like *President* or *Treasurer*. Under **Create a board role**, give it a **Title** and a **Term length**. Then **fill** it with a person and a start date:
+A **board role** is a seat on the board, like _President_ or _Treasurer_. Under **Create a board role**, give it a **Title** and a **Term length**. Then **fill** it with a person and a start date:
 
 - The role's current holder (if any) has their term ended the day before the new one starts, in the same step, so a role is never left with two holders or none by mistake.
 - The new term's end date is set from the role's term length; you can change it.

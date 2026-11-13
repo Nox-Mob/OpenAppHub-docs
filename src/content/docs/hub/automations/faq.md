@@ -15,7 +15,7 @@ Within about 5 minutes of what starts it. Schedules run at about the chosen hour
 Not for the same thing: each payment, member or meeting starts a workflow once. Two different workflows, or two email steps, can each email the same person.
 
 **Can I run a workflow by hand?**
-Not yet. Use **Test run** to see what it would do. For something regular, use *On a schedule*.
+Not yet. Use **Test run** to see what it would do. For something regular, use _On a schedule_.
 
 **I changed a workflow. Do runs that already happened run again?**
 No. Changes apply to the next runs, and to runs that are waiting when they carry on.

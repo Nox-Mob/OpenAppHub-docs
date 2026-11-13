@@ -9,23 +9,23 @@ sidebar:
 
 ## Setting it up
 
-Add **Ask for approval** (in the *Do* group) and fill in:
+Add **Ask for approval** (in the _Do_ group) and fill in:
 
-| Setting | |
-|---|---|
-| **To** | Who's asked: a seat, an officer, a role, a person, or a list ([Who gets it](/hub/automations/recipients/)). Only people with an account in your organization can answer |
-| **What needs approving** | What it is, said as "**… is pending your approval**". Write it so it makes sense on its own, with data: *An award submission from [Member name]*, *A reimbursement of [Amount] for [Member name]* |
-| **Details (optional)** | Anything that helps them decide: the amount, the reason, a link |
+| Setting                           |                                                                                                                                                                                                                     |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **To**                            | Who's asked: a seat, an officer, a role, a person, or a list ([Who gets it](/hub/automations/recipients/)). Only people with an account in your organization can answer                                             |
+| **What needs approving**          | What it is, said as "**… is pending your approval**". Write it so it makes sense on its own, with data: _An award submission from [Member name]_, _A reimbursement of [Amount] for [Member name]_                   |
+| **Details (optional)**            | Anything that helps them decide: the amount, the reason, a link                                                                                                                                                     |
 | **When several people are asked** | **The first answer decides**: whoever answers first decides for everyone. **Everyone must approve (one decline declines)**: it's approved only when all of them have approved, and declined as soon as one declines |
-| **Days to answer (optional)** | If nobody decides in time, the outcome is **timed_out** and the workflow carries on. Without it, the workflow waits until it's decided |
+| **Days to answer (optional)**     | If nobody decides in time, the outcome is **timed_out** and the workflow carries on. Without it, the workflow waits until it's decided                                                                              |
 
 ## What the people asked see
 
 Each person asked gets:
 
-- **A notification** under the bell: *An award submission from Pat Lee is pending your approval*.
+- **A notification** under the bell: _An award submission from Pat Lee is pending your approval_.
 - **An email** saying the same, with your details, how it's decided ("Everyone asked must approve it") and the date to answer by, if there is one.
-- **A task** on their dashboard, under **Your tasks**: *An award submission from Pat Lee: pending your approval*, linking to its page.
+- **A task** on their dashboard, under **Your tasks**: _An award submission from Pat Lee: pending your approval_, linking to its page.
 
 The approval's page shows what it is, the details, who was asked and what each has answered, and **Approve** and **Decline** with an optional comment. Answering is final: each person answers once.
 
@@ -35,34 +35,36 @@ If your organization allows it, the email also has **Approve** and **Decline** b
 
 The steps after **Ask for approval** can use:
 
-| Data | |
-|---|---|
-| **Outcome** | *approved*, *declined* or *timed_out* |
-| **Approved** | Yes or no |
-| **Who answered** | Names, in the order they answered |
-| **Their comments** | Everyone's comments, separated by " / " |
-| **How many approved**, **How many declined** | |
-| **Each answer** | A list: name, answer (*approved*, *declined*, or *no answer*) and comment |
+| Data                                         |                                                                           |
+| -------------------------------------------- | ------------------------------------------------------------------------- |
+| **Outcome**                                  | _approved_, _declined_ or _timed_out_                                     |
+| **Approved**                                 | Yes or no                                                                 |
+| **Who answered**                             | Names, in the order they answered                                         |
+| **Their comments**                           | Everyone's comments, separated by " / "                                   |
+| **How many approved**, **How many declined** |                                                                           |
+| **Each answer**                              | A list: name, answer (_approved_, _declined_, or _no answer_) and comment |
 
-The usual pattern is a **Condition** (or a **Switch** on *Outcome*) right after it:
+The usual pattern is a **Condition** (or a **Switch** on _Outcome_) right after it:
 
-> **Ask for approval** (named *Award OK*): to *the national's president*, what: *An award submission from [Member name]*, 14 days to answer.
-> **Switch** on *Award OK → Outcome*:
-> - *approved*: email the member "Your award was approved", and give the awards chair a task to order it.
-> - *declined*: email the member "Your award wasn't approved this time: [Award OK → Their comments]".
-> - *Anything else* (timed out): give the national secretary a task to follow up.
+> **Ask for approval** (named _Award OK_): to _the national's president_, what: _An award submission from [Member name]_, 14 days to answer.
+> **Switch** on _Award OK → Outcome_:
+>
+> - _approved_: email the member "Your award was approved", and give the awards chair a task to order it.
+> - _declined_: email the member "Your award wasn't approved this time: [Award OK → Their comments]".
+> - _Anything else_ (timed out): give the national secretary a task to follow up.
 
 ## Chains and escalation
 
 Approvals can follow one another. For example, a chapter president first, then the region:
 
-> **Ask for approval** (*Chapter OK*) to *the member's chapter president*, 7 days.
-> **Condition**: *Chapter OK → Approved* is yes →
-> - **Ask for approval** (*Region OK*) to *the region's president*, 7 days.
+> **Ask for approval** (_Chapter OK_) to _the member's chapter president_, 7 days.
+> **Condition**: _Chapter OK → Approved_ is yes →
+>
+> - **Ask for approval** (_Region OK_) to _the region's president_, 7 days.
 
-To escalate when nobody answers, check for *timed_out* and ask someone else:
+To escalate when nobody answers, check for _timed_out_ and ask someone else:
 
-> **Condition**: *Chapter OK → Outcome* is *timed_out* → **Ask for approval** to *the national's president*.
+> **Condition**: _Chapter OK → Outcome_ is _timed_out_ → **Ask for approval** to _the national's president_.
 
 ## Testing
 

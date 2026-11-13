@@ -5,7 +5,7 @@ sidebar:
   order: 3
 ---
 
-Action items are the board's follow-ups: *send the draft budget to the treasurer*, *book the hall for the AGM*. Each has a description, the person it's assigned to, an optional due date and a status. They stay visible after the meeting until they're done.
+Action items are the board's follow-ups: _send the draft budget to the treasurer_, _book the hall for the AGM_. Each has a description, the person it's assigned to, an optional due date and a status. They stay visible after the meeting until they're done.
 
 ## Where they are
 
@@ -24,12 +24,12 @@ Owners, administrators, the chair and the secretary can add action items. At the
 
 ## Statuses
 
-| Status | Meaning |
-|---|---|
-| **open** | Not started |
-| **in progress** | Being worked on |
-| **done** | Finished (shown struck through) |
-| **cancelled** | No longer needed |
+| Status          | Meaning                         |
+| --------------- | ------------------------------- |
+| **open**        | Not started                     |
+| **in progress** | Being worked on                 |
+| **done**        | Finished (shown struck through) |
+| **cancelled**   | No longer needed                |
 
 An item past its due date that's still open or in progress shows **Overdue**.
 
@@ -46,10 +46,10 @@ Owners and admins change these under **Email**, **Reminders for** your organizat
 
 The reminder says the item is waiting for them. If your organization allows **Mark action items done from email** ([Actions from email](/hub/automations/actions-from-email/)), it also has a **Mark it done** button: they sign in, confirm, and it's marked done.
 
-Workflows can do more, such as a second nudge a week later or a weekly list to each person: see the *Nudge overdue action items* template ([Templates](/hub/automations/templates/)) and [Examples](/hub/automations/examples/#board).
+Workflows can do more, such as a second nudge a week later or a weekly list to each person: see the _Nudge overdue action items_ template ([Templates](/hub/automations/templates/)) and [Examples](/hub/automations/examples/#board).
 
 ## Good practice
 
 - One person per item. If two people share it, split it into two items.
-- Start with a verb: *Send*, *Book*, *Draft*, *Call*.
-- Review open items at the start of each meeting (a standing agenda item such as *Action items from last meeting*).
+- Start with a verb: _Send_, _Book_, _Draft_, _Call_.
+- Review open items at the start of each meeting (a standing agenda item such as _Action items from last meeting_).
