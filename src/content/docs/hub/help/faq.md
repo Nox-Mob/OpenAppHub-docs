@@ -17,10 +17,13 @@ Two-step sign-in asks for a 6-digit code from an app on your phone, as well as y
 Your account uses two-step sign-in. Open your authenticator app and type the code for OpenAppHub.
 
 **Why can't I open my organization? It says it requires two-step sign-in.**
-Your organization requires two-step sign-in for its owner and admins, and you're one of them. Set it up on your account page, then sign out and sign in again with your code. See [When your organization requires it](/hub/accounts/two-step-sign-in/#when-your-organization-requires-it).
+Your organization requires two-step sign-in (for its owner and admins, or for everyone), and that includes you. Set it up on your account page, then sign out and sign in again with your code. See [When your organization requires it](/hub/accounts/two-step-sign-in/#when-your-organization-requires-it).
 
-**Why does it ask me to sign in again before deleting or handing over an organization?**
-Those actions can't be undone. So you must have signed in within the last 15 minutes. That way, someone using a computer you forgot to sign out of can't do them.
+**Why does it ask for my password before deleting or handing over an organization?**
+Those actions can't be undone. So OpenAppHub asks you to [confirm it's you](/hub/accounts/confirm-its-you/) right before. That way, someone using a computer you forgot to sign out of can't do them.
+
+**What if I lose my phone?**
+Use one of your backup codes, or a link sent to your recovery email. See [If you lose your phone](/hub/accounts/two-step-sign-in/#if-you-lose-your-phone).
 
 **Which organization opens when I sign in?**
 The one you used last, or your default organization if you chose one. You choose it on your account page, under **Your organizations**.

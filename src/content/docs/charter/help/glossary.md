@@ -11,6 +11,8 @@ sidebar:
 
 **Home chapter**: the chapter a member of a national belongs to.
 
+**Sensitive field**: a member field whose answers are stored encrypted, for private details like a date of birth. Only people who manage members, and the member, can see it. See [Sensitive fields](/charter/members/roster/#sensitive-fields).
+
 **Standing**: whether a membership is current: good standing, grace period or lapsed.
 
 **Membership level**: a kind of membership, with its own term and price.

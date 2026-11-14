@@ -29,6 +29,7 @@ Under **Settings & export**, upload your letterhead (a PDF, PNG or JPG of your h
 
 - Add a document with a **Title**, a **Category**, an optional **Meeting** it belongs to, and a **File**. The document and its first file are saved together.
 - Upload a new **version** of a document any time; every version is kept, and the latest is used in board packets. Each file can be up to 25 MB; for a larger PDF, save it at a lower quality first.
+- OpenBoardApp stores **documents and pictures**: PDF, Word, Excel, PowerPoint, OpenDocument, text (TXT, RTF), CSV, PNG, JPG, GIF, WebP and HEIC. Other kinds of files, like web pages, SVG pictures or programs, are refused, because they could run code when someone opens them. Save the file as one of these kinds first.
 - Download links are private and expire after a minute, so sharing a link outside the board doesn't give lasting access.
 
 ## The audit log and exports

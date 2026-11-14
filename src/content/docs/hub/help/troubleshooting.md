@@ -27,8 +27,12 @@ sidebar:
 
 **I see "One more step" in every app.** That's normal after you sign in with only your password. Type your code once, and every app works.
 
-**My organization says it requires two-step sign-in.** Your organization requires it for its owner and admins. Set it up on your account page, then sign out and sign in again with your code. See [When your organization requires it](/hub/accounts/two-step-sign-in/#when-your-organization-requires-it).
+**My organization says it requires two-step sign-in.** Your organization requires it for its owner and admins, or for everyone. Set it up on your account page, then sign out and sign in again with your code. See [When your organization requires it](/hub/accounts/two-step-sign-in/#when-your-organization-requires-it).
 
 **I lost my phone.** See [If you lose your phone](/hub/accounts/two-step-sign-in/#if-you-lose-your-phone).
 
-**It says to sign in again before I can delete or hand over the organization.** For actions that can't be undone, you must have signed in within the last 15 minutes. Sign out, sign in again, and try right away.
+**It asks for my password before I can delete or hand over the organization.** That's [Confirm it's you](/hub/accounts/confirm-its-you/). Actions that can't be undone ask for your password (or an emailed code) and, with two-step sign-in, a code from your phone, right before they happen.
+
+**I don't have my backup codes.** If you added a recovery email, choose **Can't use your authenticator app?** and then **Email my recovery address**. See [If you lose your phone](/hub/accounts/two-step-sign-in/#if-you-lose-your-phone).
+
+**My recovery email isn't working.** It has to be confirmed first: open the link we sent to that address and select **Confirm**. Recovery links work once, for 30 minutes.

@@ -29,3 +29,15 @@ The server needs two more things:
   Wrangler config
 
 Until it's set up, email waits in the outbox; nothing is lost.
+
+## Two-step sign-in and getting back in
+
+On your own server, two-step sign-in, backup codes, the recovery email and **Recent security activity** are under **Settings** > **Security**. They work like they do on OpenAppHub: see [Two-step sign-in](/hub/accounts/two-step-sign-in/) and [Confirm it's you](/hub/accounts/confirm-its-you/).
+
+For this to work fully, the server needs:
+
+- the `SUPABASE_SERVICE_ROLE_KEY` secret. The server uses it for two things only. It removes a lost authenticator, but only after a backup code or recovery link is accepted. Then it signs the person out everywhere else. Without the key, the recovery page says recovery isn't set up.
+- working [email](#email). This server sends codes, recovery links and security notices right away. Their links open this server.
+- **TOTP** turned on in your Supabase project (**Authentication** > **Multi-factor**).
+
+Did someone lose their phone, with no backup codes and no recovery email? The person who runs the server can remove their authenticator. In the Supabase dashboard, open **Authentication** > **Users**, choose the person, then **Multi-factor**.

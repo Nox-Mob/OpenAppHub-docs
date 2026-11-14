@@ -35,7 +35,13 @@ Here's what the words in OpenAppHub mean. They're in alphabetical order.
 
 **Read-only**: you can see and export everything, but you can't change anything. This happens, for example, when a free trial ends without a plan.
 
-**Recent sign-in**: some actions are so serious that OpenAppHub asks you to have signed in within the last 15 minutes. These are deleting an organization, handing over ownership and deleting your account. If it's been longer, sign out and sign in again.
+**Backup code**: a one-time spare key for two-step sign-in. You get ten. Each works once, if you lose your phone. See [Backup codes](/hub/accounts/two-step-sign-in/#backup-codes).
+
+**Confirm it's you**: a box that asks for your password (and your two-step code) right before an action that can't be undone, like deleting an organization. See [Confirm it's you](/hub/accounts/confirm-its-you/).
+
+**Recovery email**: a second email address that can receive a link to turn off two-step sign-in if you lose your phone. See [Recovery email](/hub/accounts/two-step-sign-in/#recovery-email).
+
+**Sensitive field**: an OpenCharterApp member field whose answers are stored encrypted and shown only to member managers and the member. See [Sensitive fields](/charter/members/roster/#sensitive-fields).
 
 **Role**: what someone is allowed to do: owner, admin, member or viewer. Each person has a role in OpenAppHub and a role in each app.
 

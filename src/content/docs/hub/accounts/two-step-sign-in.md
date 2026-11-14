@@ -1,6 +1,6 @@
 ---
 title: "Two-step sign-in"
-description: "Protect your account with a code from your phone, how signing in works with it, what to do if you lose your phone, and how an organization can require it."
+description: "Protect your account with a code from your phone: how to turn it on, backup codes, a recovery email, what to do if you lose your phone, and how an organization can require it."
 sidebar:
   order: 2
 ---
@@ -32,6 +32,7 @@ Any app that shows 6-digit codes (sometimes called "TOTP" codes) will work.
    - Can't scan it? The page also shows a key, a long string of letters and numbers. Type that key into your app instead.
 4. Your app now shows a 6-digit code for OpenAppHub. Type that code into the page.
 5. Select **Turn on**.
+6. **Save your backup codes.** Ten codes appear straight away. See [Backup codes](#backup-codes) below.
 
 That's it. The page now says two-step sign-in is **On**.
 
@@ -48,42 +49,78 @@ The code changes every 30 seconds. If one doesn't work, wait for the next code a
 
 **Why does everything look empty until I type the code?** Until you type your code, the apps don't show any of your organizations' information. That's on purpose. It means a stolen password alone can't reveal anything.
 
+## Backup codes
+
+Backup codes are your spare keys. If you lose your phone, one backup code gets you back in.
+
+- You get **ten** codes when you turn two-step sign-in on. They look like `K7QXM-2RTPA`.
+- **Each code works once.** The page shows how many you have left.
+- **Save them now.** You won't see them again. Select **Copy** or **Download**, and keep them somewhere safe: a password manager, or a printed page at home. Don't keep them only on the phone you might lose.
+- To get new codes, select **Make new codes** on your **Account** page. You'll be asked for a fresh code from your authenticator app first. Your old codes stop working.
+- If you set up two-step sign-in again on a new phone, your old codes stop working. Make new ones.
+
+## Recovery email
+
+A recovery email is a second email address, different from the one you sign in with. If you lose your phone and have no backup codes, we can send a link there that turns off two-step sign-in, so you can set it up again.
+
+**Add one:**
+
+1. On your **Account** page, under **Two-step sign-in**, find **Recovery email**.
+2. Type the address and select **Save**.
+3. A [Confirm it's you](/hub/accounts/confirm-its-you/) box opens. Type your password (or a code we email you) and, if asked, your authenticator code.
+4. We send a link to the new address. **Open it and select Confirm.** Until you do, the address can't be used.
+
+We also email your sign-in address whenever a recovery email is added or removed, so you'll know if someone else tries.
+
+To change it, type a new address and save. To stop using one, select **Remove**.
+
 ## If you lose your phone
 
-Losing your phone doesn't lock you out forever, but it takes a few steps:
+1. Sign in with your email and password.
+2. When you're asked for the code, select **Can't use your authenticator app?**
+3. Choose one:
+   - **Type a backup code**, then select **Use backup code**; or
+   - select **Email my recovery address**, then open the link in your recovery email (it works once, for 30 minutes) and select **Turn off two-step sign-in**.
+4. Two-step sign-in is now off, and **every other place you were signed in is signed out**. Set it up again on your new phone right away, and make new backup codes.
 
-- **If you're still signed in somewhere**, like on your computer, go to your **Account** page and turn two-step sign-in off. Then turn it on again with your new phone.
-- **If you can't sign in at all**, email support@openapphub.org from the email address on your account. We'll check that it's really you before we help. This can take a little time, because we have to be careful.
+Each time this happens, we email your sign-in address (and your recovery address), and it's listed in **Recent security activity** on your **Account** page.
+
+**No backup codes and no recovery email?** Email support@openapphub.org from the address you sign in with. We'll check that it's really you before we help. This takes longer, because we have to be careful. On a [self-hosted](/hub/hosting/hosted-vs-self-hosted/) install, ask whoever runs it.
 
 **Tip:** many authenticator apps can back up your codes, or sync them to a new phone. Turn that on in your app, so a lost phone is less of a problem.
 
+**Safety limits:** after 10 wrong backup codes or links in an hour, recovery stops for an hour. You can ask for at most 3 recovery links an hour.
+
 ## Turn it off
 
-On your **Account** page, under **Two-step sign-in**, select **Turn off**. To do this, you must have signed in with your code in this session. If OpenAppHub says you can't, sign out, sign in again with your code, and try again.
+On your **Account** page, under **Two-step sign-in**, select **Turn off**. You'll be asked for a code from your authenticator app first, so nobody can turn it off on a computer you left signed in.
 
-If your organization requires two-step sign-in for its owner and admins (see below), turning it off means you can't open that organization until you turn it back on.
+If your organization requires two-step sign-in (see below), turning it off means you can't open that organization until you turn it back on.
 
 ## When your organization requires it
 
-The owner or an admin can require two-step sign-in for **the owner and all admins**. These are the people who can change everything, so they need the most protection.
+The owner or an admin chooses who in the organization must use two-step sign-in. The setting is in OpenAppHub, under **Settings** > **Security**:
 
-- The setting is in OpenAppHub, under **Settings** > **Security**: **Require two-step sign-in for the owner and admins**.
-- To switch it on, you must have two-step sign-in yourself and have signed in with your code. This stops anyone from locking themselves out by mistake.
-- Members and viewers aren't affected, but they can still turn it on for themselves.
+| Choice                                | Who must use it                                                          |
+| ------------------------------------- | ------------------------------------------------------------------------ |
+| **Not required**                      | Nobody has to. Everyone may, and we recommend it.                        |
+| **Required for the owner and admins** | The people who can change everything. Members may choose for themselves. |
+| **Required for everyone**             | Every person in the organization, including the owner and admins.        |
 
-**What an admin without two-step sign-in sees:** a yellow message saying the organization requires two-step sign-in, with a link to set it up. Until they set it up and sign in with a code, they can't open that organization in any app. Their other organizations still work as usual.
+- To choose either "Required" setting, you must have two-step sign-in yourself and have signed in with your code. This stops anyone from locking themselves out by mistake.
+- The page tells you how many people haven't set it up yet. Before you save, it asks you to confirm, because those people can't open the organization until they do.
+
+**What someone without two-step sign-in sees:** a yellow message saying the organization requires two-step sign-in, with a link to set it up. Until they set it up and sign in with a code, they can't open that organization in any app. Their other organizations still work as usual.
+
+## Recent security activity
+
+Your **Account** page lists the last 20 security events on your account, with the date and time. Examples: confirming it's you, making backup codes, using a backup code, adding or confirming a recovery email, and turning two-step sign-in off to recover.
+
+Don't recognize something? Change your password and check your two-step sign-in right away.
 
 ## Extra checks for big actions
 
-Three actions can't be undone and do a lot of damage if the wrong person does them:
-
-- deleting an organization;
-- handing ownership of an organization to someone else;
-- deleting your account.
-
-For these, OpenAppHub asks for a **recent sign-in**: you must have signed in within the last **15 minutes**. If it's been longer, you'll see _"For your safety, sign out and sign in again, then try this within 15 minutes."_ Sign out, sign back in, and do it right away.
-
-This protects you if you leave a computer signed in. Someone who walks up to it still can't delete your organization.
+Deleting an organization, handing over ownership, deleting your account and changing your recovery email each ask you to [confirm it's you](/hub/accounts/confirm-its-you/) first. If you use two-step sign-in, that includes a code from your authenticator app.
 
 ## Questions
 
@@ -94,3 +131,5 @@ This protects you if you leave a computer signed in. Someone who walks up to it 
 **Can I use text messages (SMS) instead?** Not right now. Codes from an app are safer than text messages, which can be redirected to someone else's phone.
 
 **Will I need the code every time?** You need it each time you sign in. Once you're signed in, you won't be asked again until you sign out or your session ends.
+
+**Are my backup codes stored somewhere?** Only a scrambled fingerprint of each one, never the code itself. That's why we can't show them to you again.

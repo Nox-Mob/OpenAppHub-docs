@@ -7,18 +7,18 @@ sidebar:
 
 **Settings** has a section menu down the left. What each section is for, and who can use it:
 
-| Section                     | For                                                                                                         | Who                                     |
-| --------------------------- | ----------------------------------------------------------------------------------------------------------- | --------------------------------------- |
-| **Your preferences**        | The wording OpenLedgerApp uses, and the tutorial                                                            | Everyone (wording is changed by admins) |
-| **Accounts**                | Your chart of accounts: add from a list, archive, make active                                               | Admins and treasurers                   |
-| **Close**                   | Close a month, lock or reopen the books, close a fiscal year                                                | Admins and treasurers                   |
-| **OpenCharterApp payments** | Dues from OpenCharterApp: whether they're offered, whose, from when, into which accounts, the card fee rate | Admins change; everyone sees            |
-| **Users & roles**           | Who uses the books and their role; invitations; ownership                                                   | Admins                                  |
-| **Security**                | Two-step sign-in, deleting your account                                                                     | Everyone, for themselves                |
-| **Exports and backup**      | Spreadsheets of your transactions; full backup and restore                                                  | Backups and restores: admins            |
-| **History**                 | Who changed what                                                                                            | Admins                                  |
-| **Diagnostics**             | Health checks for the books and this installation                                                           | Admins and treasurers                   |
-| **Email**                   | Your notifications and email choices; reminders                                                             | Everyone                                |
+| Section                     | For                                                                                                                                                                                 | Who                                                         |
+| --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| **Your preferences**        | The wording OpenLedgerApp uses, and the tutorial                                                                                                                                    | Everyone (wording is changed by admins)                     |
+| **Accounts**                | Your chart of accounts: add from a list, archive, make active                                                                                                                       | Admins and treasurers                                       |
+| **Close**                   | Close a month, lock or reopen the books, close a fiscal year                                                                                                                        | Admins and treasurers                                       |
+| **OpenCharterApp payments** | Dues from OpenCharterApp: whether they're offered, whose, from when, into which accounts, the card fee rate                                                                         | Admins change; everyone sees                                |
+| **Users & roles**           | Who uses the books and their role; invitations; ownership                                                                                                                           | Admins                                                      |
+| **Security**                | On OpenAppHub, links to your account and organization security settings. On your own server: two-step sign-in, backup codes, recovery email, who must use it, deleting your account | Everyone, for themselves; who must use it: owner and admins |
+| **Exports and backup**      | Spreadsheets of your transactions; full backup and restore                                                                                                                          | Backups and restores: admins                                |
+| **History**                 | Who changed what                                                                                                                                                                    | Admins                                                      |
+| **Diagnostics**             | Health checks for the books and this installation                                                                                                                                   | Admins and treasurers                                       |
+| **Email**                   | Your notifications and email choices; reminders                                                                                                                                     | Everyone                                                    |
 
 ## Your preferences
 
@@ -46,7 +46,11 @@ See [Users, security and exports](/ledger/admin/users-security-exports/#roles). 
 
 - **Transactions**: download your transactions as a spreadsheet (CSV), for your accountant or another program.
 - **Full backup** (admins): one file with everything in your books. The file is signed by this installation, so a restore can check it hasn't been changed.
-- **Restore a backup** (admins): restore a backup file (up to 25 MB) **into a new organization**; enter the new organization's name to confirm. Restoring never overwrites the books you have. If a file can't be restored (it was changed, or isn't an OpenLedgerApp backup), it says so and nothing is created.
+- **Restore a backup** (owner and admins): restore a backup file (up to 25 MB) **into this organization, while its books are still empty** (no accounts or transactions yet). Type the backed-up organization's name to confirm.
+  - Restoring never changes books that already have entries. To restore next to books you already keep, [make a new organization](/hub/accounts/organizations-and-roles/) in OpenAppHub, open it in OpenLedgerApp, and restore there before setting anything up.
+  - It happens in one step: if anything goes wrong, nothing is saved, and you can try again.
+  - If a file can't be restored (it was changed, or isn't an OpenLedgerApp backup), it says so and nothing is saved.
+  - Your old history comes along, marked "restored". Other members aren't copied: invite them again.
 
 ## History
 
