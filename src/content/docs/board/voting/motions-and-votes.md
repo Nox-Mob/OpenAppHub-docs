@@ -41,7 +41,7 @@ Owners and admins set these under **Settings & export**:
 | **Simple majority of votes cast**           | More yes than no votes; abstentions don't count                                                                                                                                                             |
 | **Majority of the eligible voters present** | Yes votes are more than half of the eligible voters (not counting anyone who recused), so abstaining or not voting works like voting no                                                                     |
 | **Two-thirds of votes cast**                | Yes votes are at least two-thirds of the yes and no votes                                                                                                                                                   |
-| **Custom: the chair records the result**    | The app doesn't calculate it: when the vote closes, the chair (or another permitted role) records **Carried** or **Failed**, for rules the app doesn't know (for example a supermajority of the full board) |
+| **Custom — the chair records the result**   | The app doesn't calculate it: when the vote closes, the chair (or another permitted role) records **Carried** or **Failed**, for rules the app doesn't know (for example a supermajority of the full board) |
 
 When a live vote closes, OpenBoardApp calculates the result with the rule. If **quorum wasn't met**, or the rule is custom, nobody is declared the winner automatically: a permitted role records the result, with an explanation that's kept in the record. A calculated result can still be marked **Tabled** or **Withdrawn**.
 

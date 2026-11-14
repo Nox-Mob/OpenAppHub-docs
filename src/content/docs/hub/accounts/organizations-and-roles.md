@@ -36,8 +36,9 @@ OpenAppHub admin.
 Someone's role in an app comes from, in order:
 
 1. **The owner** is the owner in every app.
-2. **A role set for them in that app**, on the **Members** page under **Roles in each app** (or in the
-   app's own members page). It wins over a named role.
+2. **A role set for them in that app**, on the **Members** page: each person's row in **People** shows
+   their named role and their role in each app, ready to change (or set it in the app's own members
+   page). It wins over a named role.
 3. **Their named role** (below), if it gives that app a role.
 4. Otherwise they're a **viewer** in that app, shown as **Not set: viewer** so you can spot it.
 
@@ -73,7 +74,7 @@ permissions** an app offers, without making the person an admin there. For examp
 OpenCharterApp who may see payments, or a member in OpenBoardApp who may edit the official record.
 
 - Create and change them on the **Members** page, under **Named roles** (owner and OpenAppHub admins).
-- Each person has **one** named role at most; pick it in the **Named role** column. Anything else they
+- Each person has **one** named role at most; pick it under **Named role** in their row on the **Members** page. Anything else they
   need in one app, set for them in that app.
 - Changing a named role changes it for everyone who holds it. Deleting one leaves its people as viewers,
   except where something is set for them in a single app.
@@ -85,7 +86,7 @@ OpenCharterApp who may see payments, or a member in OpenBoardApp who may edit th
 | OpenLedgerApp  | Close the books (what a treasurer can do); manage the books                                                                                           |
 
 Apps also have their own roles on top, set in the app: a board's chair or secretary, a treasurer, a
-chapter's president. They show under the person's role on the Members page.
+chapter's president. They show under the person's role for that app on the Members page.
 
 ### Building workflows
 

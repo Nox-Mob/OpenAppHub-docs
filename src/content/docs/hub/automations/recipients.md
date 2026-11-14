@@ -21,7 +21,7 @@ sidebar:
 
 **Whoever holds a board seat** and **An officer of the board** are worked out **when the step runs**: when a new treasurer takes office, the next run goes to them, without anyone editing the workflow. Prefer them to **A particular person** for anything tied to a role in the organization.
 
-If nobody holds the seat on the day, nobody can be emailed, and the step fails with _Nobody to email (is that seat or office filled…?)_. Handle it with **Run after: failed** to email someone else instead ([Retries and "run after"](/hub/automations/steps/#retries-and-run-after)).
+If nobody holds the seat on the day, nobody can be emailed, and the step fails with _Nobody to email (is that seat or office filled…?)_. Handle it with a step after it that runs only when it failed (under **Run this step after**, tick **failed**) and emails someone else instead ([Retries and "run after"](/hub/automations/steps/#retries-and-run-after)).
 
 ## One email per person
 

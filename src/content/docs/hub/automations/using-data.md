@@ -11,13 +11,13 @@ The designer's key idea: **anything a step finds or makes can be used by any ste
 
 Next to text fields there's **Insert data**. It lists what you can use **at that point in the workflow**, grouped by where it comes from:
 
-| Group                               | What's in it                                             | Example                                       |
-| ----------------------------------- | -------------------------------------------------------- | --------------------------------------------- |
-| **What started the run**            | The trigger's data                                       | _Member name_, _Amount_, _Meeting date_       |
-| **Each earlier step** (by its name) | What that step gave later steps                          | _Find members → Members_ (a list), _How many_ |
-| **Each item of "…"**                | Inside a **For each**: the current item's fields         | _Each of Find members → Email_                |
-| **Variables**                       | Variables made before this step                          | _total_                                       |
-| **Today's date**                    | The date the step runs, in your organization's time zone | —                                             |
+| Group                                               | What's in it                                             | Example                                       |
+| --------------------------------------------------- | -------------------------------------------------------- | --------------------------------------------- |
+| **What started the run** (under the trigger's name) | The trigger's data                                       | _Member name_, _Amount_, _Meeting date_       |
+| **Each earlier step** (by its name)                 | What that step gave later steps                          | _Find members → Members_ (a list), _How many_ |
+| **Each item of "…"**                                | Inside a **For each**: the current item's fields         | _Each of Find members → Email_                |
+| **Variables**                                       | Variables made before this step                          | _total_                                       |
+| **Today's date**                                    | The date the step runs, in your organization's time zone | —                                             |
 
 Select an item and it's put where your cursor is. You can mix data with your own words, for example _Time to renew, _ followed by the member's name. Under the field, each piece of data is shown in words, so _Hi {{items.each.name}}_ reads _Hi [Each of Find members → Name]_.
 
