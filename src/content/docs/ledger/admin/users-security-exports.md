@@ -8,7 +8,7 @@ sidebar:
 Under **Settings**:
 
 - **Users & roles**: who can use the books, and who is treasurer.
-- **Security**: two-step sign-in.
+- **Security**: two-step sign-in, and whether your books require it.
 - **Exports and backup**: export your data.
 - **History**: the record of changes.
 
@@ -31,6 +31,22 @@ books without being the treasurer. Anyone with nothing set can view only. A trea
 in OpenLedgerApp. If your organization lets app admins change roles in their own app, OpenLedgerApp admins can change
 roles here too. On OpenAppHub you can give someone **No access** to OpenLedgerApp, for example a
 volunteer who shouldn't see the books ([No access](/hub/accounts/organizations-and-roles/#no-access)).
+
+## Two-step sign-in
+
+Two-step sign-in asks for a 6-digit code from an app on your phone, as well as your password. It's the
+best way to protect your books.
+
+- **Your own account:** set it up under **Settings** > **Security**, or on your OpenAppHub account page.
+  It's the same setting, and it works in every app. See [Two-step sign-in](/hub/accounts/two-step-sign-in/).
+- **Require it for your books:** an admin can require two-step sign-in for **everyone** who uses
+  OpenLedgerApp in your organization, under **Settings** > **Security**. People without it see a message
+  explaining how to set it up, and they can't see the books until they do.
+- **Require it for owners and admins everywhere:** OpenAppHub has a separate setting that covers every app
+  for the owner and admins (**Settings** > **Security** in OpenAppHub).
+
+Once someone has set up two-step sign-in, they must type their code each time they sign in before any app
+shows their organizations' information.
 
 ## The first time you open OpenLedgerApp
 

@@ -11,6 +11,16 @@ You sign in once at [openapphub.org](https://openapphub.org/login) and stay sign
 
 1. Go to [openapphub.org/login](https://openapphub.org/login).
 2. Enter your **Email** and **Password**, then select **Sign in**. Or select **Continue with Google**.
+3. **If you use two-step sign-in**, you'll see **One more step**. Open your authenticator app and type the
+   6-digit code for OpenAppHub, then select **Continue**. Until you do, the apps won't show your
+   organizations' information. See [Two-step sign-in](/hub/accounts/two-step-sign-in/).
+
+You only sign in once. The same sign-in works in OpenCharterApp, OpenBoardApp and OpenLedgerApp too.
+
+:::tip[Protect your account]
+Turn on [two-step sign-in](/hub/accounts/two-step-sign-in/). Then a stolen password isn't enough to get
+into your account.
+:::
 
 ## Create an account
 
