@@ -28,7 +28,7 @@ Under **Settings & export**, upload your letterhead (a PDF, PNG or JPG of your h
 **Documents** keeps your bylaws, policies, reports and anything else the board needs:
 
 - Add a document with a **Title**, a **Category**, an optional **Meeting** it belongs to, and a **File**. The document and its first file are saved together.
-- Upload a new **version** of a document any time; every version is kept, and the latest is used in board packets.
+- Upload a new **version** of a document any time; every version is kept, and the latest is used in board packets. Each file can be up to 25 MB; for a larger PDF, save it at a lower quality first.
 - Download links are private and expire after a minute, so sharing a link outside the board doesn't give lasting access.
 
 ## The audit log and exports

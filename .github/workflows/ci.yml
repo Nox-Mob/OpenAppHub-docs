@@ -5,6 +5,10 @@ on:
     branches: [staging]
   pull_request:
 
+# Least privilege (security review 2026-11-14): the job only reads the repository.
+permissions:
+  contents: read
+
 jobs:
   build:
     runs-on: ubuntu-latest
