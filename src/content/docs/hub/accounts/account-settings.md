@@ -15,6 +15,12 @@ Select your initials at the top right, then **Account**.
 - **Password:** enter your current password, then the new one twice (at least 8 characters). If you sign in
   with Google, you can **Set password** to also sign in with your email.
 
+## Two-step sign-in
+
+Two-step sign-in asks for a 6-digit code from your phone, as well as your password, each time you sign in.
+Set it up, or turn it off, under **Two-step sign-in**. It works in every app. The full guide is
+[Two-step sign-in](/hub/accounts/two-step-sign-in/).
+
 ## Notifications
 
 What you're told about, under the bell and by email, each chosen on its own: see [Notifications](/hub/accounts/notifications/).
@@ -60,6 +66,9 @@ Choose **Light**, **Dark** or **System**, and change your cookie choices. See
 
 Select **Delete my account**. This deletes your sign-in and removes you from every organization. It can't be
 undone.
+
+For your safety, you must have signed in within the last 15 minutes. If it's been longer, OpenAppHub asks
+you to sign out and sign in again. Do that, then try again right away.
 
 You can't delete your account while you own an organization: first
 [transfer ownership](/hub/accounts/organizations-and-roles/#transferring-ownership) or delete the

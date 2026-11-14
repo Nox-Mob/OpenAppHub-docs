@@ -117,14 +117,15 @@ Owners and admins change OpenAppHub roles on the **Members** page. Anyone except
 
 Open **Settings** in the side menu.
 
-| Setting                    | Who can change it                | What it does                                                                                                                                                                                                                                            |
-| -------------------------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Name**                   | Owner or admin                   | Shown in every app.                                                                                                                                                                                                                                     |
-| **Time zone and currency** | Owner or admin (others see them) | Every app shows dates in this time zone and money in this currency.                                                                                                                                                                                     |
-| **Billing contact**        | Owner or admin                   | Where invoices and receipts go, if not to the owner, plus an optional name for invoices. It also gets billing [notifications](/hub/accounts/notifications/) by email.                                                                                   |
-| **Automations**            | —                                | A link to the [Automations](/hub/automations/) page.                                                                                                                                                                                                    |
-| **Roles in the apps**      | Owner or admin (others see it)   | Whether each app's admins may change people's roles in that app. Off unless switched on. See [Who changes roles in an app](#who-changes-roles-in-an-app).                                                                                               |
-| **Actions from email**     | Owner or admin (others see them) | Which actions people may take straight from an email: finish workflow tasks, answer approvals, approve or decline join requests, mark action items done. Each is off until switched on. See [Actions from email](/hub/automations/actions-from-email/). |
+| Setting                    | Who can change it                | What it does                                                                                                                                                                                                                                                                                            |
+| -------------------------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Name**                   | Owner or admin                   | Shown in every app.                                                                                                                                                                                                                                                                                     |
+| **Time zone and currency** | Owner or admin (others see them) | Every app shows dates in this time zone and money in this currency.                                                                                                                                                                                                                                     |
+| **Billing contact**        | Owner or admin                   | Where invoices and receipts go, if not to the owner, plus an optional name for invoices. It also gets billing [notifications](/hub/accounts/notifications/) by email.                                                                                                                                   |
+| **Automations**            | —                                | A link to the [Automations](/hub/automations/) page.                                                                                                                                                                                                                                                    |
+| **Security**               | Owner or admin (others see it)   | **Require two-step sign-in for the owner and admins.** When it's on, the owner and admins must sign in with a code from an authenticator app before they can open the organization. Off unless switched on. See [Two-step sign-in](/hub/accounts/two-step-sign-in/#when-your-organization-requires-it). |
+| **Roles in the apps**      | Owner or admin (others see it)   | Whether each app's admins may change people's roles in that app. Off unless switched on. See [Who changes roles in an app](#who-changes-roles-in-an-app).                                                                                                                                               |
+| **Actions from email**     | Owner or admin (others see them) | Which actions people may take straight from an email: finish workflow tasks, answer approvals, approve or decline join requests, mark action items done. Each is off until switched on. See [Actions from email](/hub/automations/actions-from-email/).                                                 |
 
 ## Transferring ownership
 
@@ -137,7 +138,8 @@ Only the owner can transfer ownership:
    members**: people who have confirmed their email address.
 2. Type the new owner's name exactly as shown (or their email address if they haven't set a name).
    Capitals and extra spaces don't matter.
-3. Select **Transfer ownership**.
+3. Select **Transfer ownership**. You must have signed in within the last 15 minutes; if not, sign out,
+   sign in again, and try right away.
 
 The new owner takes over straight away and you become an admin. You can't undo it yourself: ask the new
 owner to transfer it back.
@@ -149,3 +151,6 @@ Someone missing from the list? They need to accept their invitation and confirm 
 Only the owner can. In **Settings**, under **Delete organization**, type the organization's name to confirm.
 This deletes its data in **every** app and can't be undone, so [export](/hub/data/ownership-and-export/)
 anything you need first.
+
+Because this can't be undone, you must have signed in within the last 15 minutes. If it's been longer,
+sign out, sign in again, and try right away.
