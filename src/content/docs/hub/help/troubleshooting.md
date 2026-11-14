@@ -21,6 +21,17 @@ sidebar:
 | You can't delete your account                                        | You own an organization. Transfer ownership or delete the organization first.                                               |
 | **Only the owner or an admin can change these settings.**            | Ask an owner or admin in your organization.                                                                                 |
 
+## Signed in as someone else, or can't sign out
+
+If an app opens signed in as someone you didn't sign in as, or you're still signed in after you select
+**Sign out**:
+
+1. Reload the page once. The apps clear old sign-in details on their own when they load.
+2. Select **Sign out** again (select your initials at the top right, then **Sign out**).
+3. Still signed in? Clear your browser's cookies for openapphub.org, then sign in again.
+
+On a computer other people use, always sign out when you finish, and close the browser.
+
 ## Two-step sign-in problems
 
 **My code doesn't work.** Codes change every 30 seconds. Wait for a new code and type it right away. If codes never work, check that your phone's clock is set automatically (in your phone's date and time settings). Authenticator codes depend on the right time.

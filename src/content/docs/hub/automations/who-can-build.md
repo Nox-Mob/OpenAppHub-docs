@@ -12,7 +12,7 @@ Workflows are powerful. One workflow can email hundreds of members or change rec
 There are three groups of people:
 
 - **The owner and OpenAppHub admins.** They can do everything with workflows. They can build them, change them, switch them on and off, and delete them. They can also change the ready-made automations, like meeting reminders.
-- **People they choose.** The owner or an admin can let anyone else build workflows too. There are two ways to do it. On the **Members** page, tick **Can build workflows** next to the person. Or on the **Automations** page, add them under **Who can build workflows**.
+- **People they choose.** The owner or an admin can let anyone else build workflows too. There are two ways to do it. On the **Members** page, tick **Can build workflows** in the person's row. Or on the **Automations** page, add them under **Who can build workflows**.
 - **Everyone else.** Everyone else in the organization can look at the workflows. They can also see **What happened**, the history of each run. But they can't change anything.
 
 :::caution[Workflows act for the whole organization]
