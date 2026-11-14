@@ -18,8 +18,14 @@ Select your initials at the top right, then **Account**.
 ## Two-step sign-in
 
 Two-step sign-in asks for a 6-digit code from your phone, as well as your password, each time you sign in.
-Set it up, or turn it off, under **Two-step sign-in**. It works in every app. The full guide is
-[Two-step sign-in](/hub/accounts/two-step-sign-in/).
+Set it up, or turn it off, under **Two-step sign-in**. It works in every app. The same panel has:
+
+- **Backup codes**: ten one-time codes for when you lose your phone. Make new ones any time.
+- **Recovery email**: a second address that can receive a link to get back in. Adding or changing it
+  asks you to [confirm it's you](/hub/accounts/confirm-its-you/).
+- **Recent security activity**: the last 20 security events on your account, with dates.
+
+The full guide is [Two-step sign-in](/hub/accounts/two-step-sign-in/).
 
 ## Notifications
 
@@ -67,8 +73,9 @@ Choose **Light**, **Dark** or **System**, and change your cookie choices. See
 Select **Delete my account**. This deletes your sign-in and removes you from every organization. It can't be
 undone.
 
-For your safety, you must have signed in within the last 15 minutes. If it's been longer, OpenAppHub asks
-you to sign out and sign in again. Do that, then try again right away.
+For your safety, OpenAppHub asks you to [confirm it's you](/hub/accounts/confirm-its-you/) right before:
+your password (or an emailed code if you sign in with Google) and, if you use two-step sign-in, a code
+from your authenticator app.
 
 You can't delete your account while you own an organization: first
 [transfer ownership](/hub/accounts/organizations-and-roles/#transferring-ownership) or delete the

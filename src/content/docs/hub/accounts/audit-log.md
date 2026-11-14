@@ -17,7 +17,7 @@ The owner and admins can open **Audit log** in the side menu. The newest changes
 - **People:** someone joining, leaving or being removed, and ownership being handed over.
 - **Roles:** changes to someone's OpenAppHub role, their role in each app (including **No access**), and named roles being made, changed or deleted.
 - **Invitations:** invitations being sent, accepted or cancelled. (The secret part of the invitation link is never written to the log.)
-- **Security and settings:** turning on or off **Require two-step sign-in for the owner and admins**, letting app admins change roles in their own app, and which actions are allowed from email.
+- **Security and settings:** changing who must use two-step sign-in, letting app admins change roles in their own app, and which actions are allowed from email.
 
 Each entry shows the value before and after the change, so you can see exactly what was different.
 

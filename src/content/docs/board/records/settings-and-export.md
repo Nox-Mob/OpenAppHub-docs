@@ -36,6 +36,14 @@ Upload your header and footer (a PDF, PNG or JPG) and minutes, agendas and packe
 
 **Download full export (JSON)** downloads the full board record in one file: the organization and its settings, letterhead details, people, offices, positions and terms, committees and their members, meetings, agenda items, attendance, motions and votes, minutes, documents and their versions, packets, action items, meeting templates, and the audit log. (Files themselves, such as uploaded documents, are listed by name; download them from **Documents**.) Use it to keep your own copy or to move to another system. It works even when your plan makes OpenBoardApp read-only.
 
+## Security
+
+**Security** in the menu is where you protect your account. On OpenAppHub it links to your
+[OpenAppHub account](/hub/accounts/two-step-sign-in/) and organization settings, which cover every app. On
+your own server it has two-step sign-in, backup codes, the recovery email and who must use two-step sign-in.
+
+Handing over ownership asks you to [confirm it's you](/hub/accounts/confirm-its-you/) first.
+
 ## Another organization
 
 Self-hosted, you can create another organization here. Hosted, organizations are created in OpenAppHub.

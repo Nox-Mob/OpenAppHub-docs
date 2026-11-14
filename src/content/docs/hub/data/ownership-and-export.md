@@ -13,7 +13,7 @@ Your organization's information belongs to your organization, not to us. This pa
 - **Nothing is deleted when a plan or trial ends.** The apps become read-only instead. You can still see and export everything until you choose a plan.
 - **Each organization's information is kept apart.** The database itself checks who can see what, on every request. One organization can never see another's information.
 - **Important changes are recorded.** The [audit log](/hub/accounts/audit-log/) shows who changed what.
-- **Deleting is your choice.** Only the owner can delete an organization. They type its name to confirm, and they must have signed in within the last 15 minutes. Deleting removes its information in every app, and it can't be undone.
+- **Deleting is your choice.** Only the owner can delete an organization. They type its name to confirm, then [confirm it's you](/hub/accounts/confirm-its-you/) with their password. Deleting removes its information in every app, and it can't be undone.
 
 ## Exporting from each app
 

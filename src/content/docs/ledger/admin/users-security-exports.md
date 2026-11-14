@@ -8,7 +8,7 @@ sidebar:
 Under **Settings**:
 
 - **Users & roles**: who can use the books, and who is treasurer.
-- **Security**: two-step sign-in, and whether your books require it.
+- **Security**: on OpenAppHub, a link to your account and organization security settings, which cover every app. On your own server: two-step sign-in, backup codes, the recovery email, and who must use two-step sign-in.
 - **Exports and backup**: export your data.
 - **History**: the record of changes.
 
@@ -37,16 +37,23 @@ volunteer who shouldn't see the books ([No access](/hub/accounts/organizations-a
 Two-step sign-in asks for a 6-digit code from an app on your phone, as well as your password. It's the
 best way to protect your books.
 
-- **Your own account:** set it up under **Settings** > **Security**, or on your OpenAppHub account page.
-  It's the same setting, and it works in every app. See [Two-step sign-in](/hub/accounts/two-step-sign-in/).
-- **Require it for your books:** an admin can require two-step sign-in for **everyone** who uses
-  OpenLedgerApp in your organization, under **Settings** > **Security**. People without it see a message
+- **Your own account:** on OpenAppHub, set it up on your [OpenAppHub account page](/hub/accounts/two-step-sign-in/).
+  It works in every app. On your own server, set it up under **Settings** > **Security**.
+- **Who must use it:** an owner or admin chooses **Not required**, **Required for the owner and admins**, or
+  **Required for everyone**. On OpenAppHub that's under **Settings** > **Security** in OpenAppHub, for every
+  app at once; on your own server, under **Settings** > **Security** here. People it covers see a message
   explaining how to set it up, and they can't see the books until they do.
-- **Require it for owners and admins everywhere:** OpenAppHub has a separate setting that covers every app
-  for the owner and admins (**Settings** > **Security** in OpenAppHub).
+- **Lost your phone?** Use a backup code, or a link sent to your recovery email. See
+  [If you lose your phone](/hub/accounts/two-step-sign-in/#if-you-lose-your-phone).
+
+OpenLedgerApp used to have its own switch, "Require it for your books". It's now part of the setting above.
+Organizations that had it on now have **Required for everyone**.
 
 Once someone has set up two-step sign-in, they must type their code each time they sign in before any app
 shows their organizations' information.
+
+Deleting the organization, handing over ownership and deleting your account ask you to
+[confirm it's you](/hub/accounts/confirm-its-you/) first.
 
 ## The first time you open OpenLedgerApp
 

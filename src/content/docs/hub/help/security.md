@@ -17,11 +17,21 @@ What each person can do depends on their **role**, which the owner and admins ch
 
 ### Your password isn't enough on its own (if you want)
 
-With [two-step sign-in](/hub/accounts/two-step-sign-in/), signing in needs your password **and** a code from your phone. Once you turn it on, the database won't show any organization's information until you've typed your code. An organization can also require it for its owner and admins.
+With [two-step sign-in](/hub/accounts/two-step-sign-in/), signing in needs your password **and** a code from your phone. Once you turn it on, the database won't show any organization's information until you've typed your code. An organization can require it for its owner and admins, or for everyone.
 
-### Big actions need a recent sign-in
+Lose your phone? Ten one-time **backup codes** and an optional **recovery email** get you back in. Every step is emailed to you and listed in your account's **Recent security activity**, and all your other sessions are signed out.
 
-Deleting an organization, handing over ownership and deleting an account need a sign-in from the last 15 minutes. A computer someone forgot to sign out of can't be used for them.
+### Big actions: confirm it's you
+
+Deleting an organization, handing over ownership, deleting an account and changing your recovery email each ask you to [confirm it's you](/hub/accounts/confirm-its-you/) right before: your password and, with two-step sign-in, a code from your phone. A computer someone forgot to sign out of can't be used for them.
+
+### Sensitive member details are encrypted
+
+In OpenCharterApp, an admin can mark a member field **Sensitive**, like a date of birth. Its answers are [encrypted](/charter/members/roster/#sensitive-fields) (AES-256, with a fresh random salt for each answer) before they're saved. Only the people who manage members, and the member themself, can see them.
+
+### Only safe files
+
+OpenBoardApp stores documents and pictures only, not web pages or scripts that could run when someone opens them.
 
 ### Everything travels encrypted
 
@@ -52,12 +62,14 @@ Some information is cleaned up on a schedule: sent emails after 180 days, used e
 These steps make a big difference:
 
 1. **Turn on [two-step sign-in](/hub/accounts/two-step-sign-in/).** It's the best single thing you can do.
-2. **If you're an owner or admin, require it for admins.** In **Settings** > **Security**, turn on **Require two-step sign-in for the owner and admins**.
-3. **Use a strong, unique password.** Don't reuse a password from another website. A password manager makes this easy.
-4. **Give people only the roles they need.** A volunteer who only plans events doesn't need access to the books. Use **No access** for apps someone shouldn't open.
-5. **Remove people who leave.** When someone leaves your organization, remove them on the **Members** page.
-6. **Sign out on shared computers.** On a library or office computer, always sign out when you're done.
-7. **Be careful with emails.** Our emails come from openapphub.org. Our buttons only work after you sign in, and they always ask you to confirm. If an email asks for your password, it's not from us.
+2. **Save your backup codes and add a recovery email.** Then a lost phone won't lock you out.
+3. **If you're an owner or admin, require two-step sign-in.** In **Settings** > **Security**, choose **Required for the owner and admins**, or **Required for everyone**.
+4. **Mark private member details as Sensitive** in OpenCharterApp (for example a date of birth), so they're encrypted. See [Sensitive fields](/charter/members/roster/#sensitive-fields).
+5. **Use a strong, unique password.** Don't reuse a password from another website. A password manager makes this easy.
+6. **Give people only the roles they need.** A volunteer who only plans events doesn't need access to the books. Use **No access** for apps someone shouldn't open.
+7. **Remove people who leave.** When someone leaves your organization, remove them on the **Members** page.
+8. **Sign out on shared computers.** On a library or office computer, always sign out when you're done.
+9. **Be careful with emails.** Our emails come from openapphub.org. Our buttons only work after you sign in, and they always ask you to confirm. If an email asks for your password, it's not from us.
 
 ## Reporting a security problem
 

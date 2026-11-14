@@ -48,8 +48,27 @@ Collect the details your organization needs (rank, branch, a member number, a bi
 | **Members can edit their own** | Whether members may change their own answer                                                                                                                                                                                                                                |
 | **Show in directory**          | Whether it's listed next to members' names in the member directory                                                                                                                                                                                                         |
 | **Required**                   | Members must answer it (on the join page, and when admins add them). On a national's chapter fields: **Required for every chapter**                                                                                                                                        |
+| **Sensitive**                  | Stores the answers encrypted, for private details. Member fields only. See [Sensitive fields](#sensitive-fields) below                                                                                                                                                     |
 
-A national's member fields apply to its chapters too. **Chapter fields** (on a national) are details about each chapter, such as a charter number or meeting place, filled in when a chapter is added.
+A national's member fields apply to its chapters too.
+
+### Sensitive fields
+
+Turn on **Sensitive** for private details, like a **date of birth**, a **medical or dietary note**, an **emergency contact**, or an **ID number**. The **?** next to the switch explains it in the app too.
+
+What changes when a field is sensitive:
+
+- **Answers are encrypted.** Each answer is scrambled with AES-256 before it's saved, with its own random salt, so the same answer never looks the same twice. A copy of the database or a backup shows only scrambled text. The key is kept apart from the data.
+- **Few people can see it.** Only people who manage members in your organization, and the member themself, can see the answer. **Who can see it** is set to **Admins only** and can't be changed while the field is sensitive.
+- **It's never in the member directory.** **Show in directory** is turned off.
+- **It can't be used in pricing rules.** A rule like "a lower price for members born before 1960" can't use a sensitive field. If a pricing rule already uses the field, remove it from the rule first.
+- **The history log hides it.** The [audit log](/charter/records/audit-log-and-reports/) shows that it changed, and by whom, but the value shows as _(sensitive)_.
+- **Join-page answers are encrypted too**, the moment someone submits the form.
+- **Exports** include the real answers, for the people allowed to see them. Keep exported files somewhere safe.
+
+**Turning it on later** encrypts the answers already saved, and hides them in earlier history entries. **Turning it off** makes them ordinary answers again.
+
+**When not to use it:** for details you want to search, sort by, show in the directory or price by (like rank or branch). Those need ordinary fields. **Chapter fields** (on a national) are details about each chapter, such as a charter number or meeting place, filled in when a chapter is added.
 
 ## The member directory and privacy
 
