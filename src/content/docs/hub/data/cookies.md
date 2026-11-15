@@ -15,3 +15,9 @@ OpenAppHub and its apps use a few cookies, all set by us. No advertising or trac
 Change your choices at any time: select **Cookie settings** at the bottom of any page, or in your account menu
 in the apps, then **Save my choices**. One choice covers every OpenAppHub app. The full list is on the
 [cookie policy](https://openapphub.org/cookies).
+
+## Visit counts
+
+On openapphub.org, the apps and these docs, we count visits with Cloudflare Web Analytics. It tells us
+which pages are used and how fast they load. It sets **no cookies**, doesn't follow you to other sites,
+and doesn't tell us who you are. It isn't used on test copies of the site.

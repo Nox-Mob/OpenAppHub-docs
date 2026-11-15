@@ -8,6 +8,24 @@ import starlightSidebarTopics from 'starlight-sidebar-topics';
 // `sidebar.order` in each page's frontmatter.
 const group = (label, directory) => ({ label, items: [{ autogenerate: { directory } }] });
 
+// Cloudflare Web Analytics, on production only (owner request, 2026-11-15): Cloudflare's automatic
+// injection is off, and only Workers Builds of `main` (WORKERS_CI_BRANCH) add the script. Branch
+// previews and local builds don't. The token is public (it's in every page that loads the script).
+const ANALYTICS_TOKEN = '054d7738b858425f863060e1c3b9dbb3';
+const analyticsHead =
+  process.env.WORKERS_CI_BRANCH === 'main'
+    ? [
+        {
+          tag: 'script',
+          attrs: {
+            defer: true,
+            src: 'https://static.cloudflareinsights.com/beacon.min.js',
+            'data-cf-beacon': JSON.stringify({ token: ANALYTICS_TOKEN }),
+          },
+        },
+      ]
+    : [];
+
 export default defineConfig({
   site: 'https://docs.openapphub.org',
   // Pages that moved: old links keep working.
@@ -23,6 +41,7 @@ export default defineConfig({
       favicon: '/favicon.svg',
       customCss: ['@fontsource-variable/inter', './src/styles/custom.css'],
       lastUpdated: true,
+      head: analyticsHead,
       editLink: { baseUrl: 'https://github.com/Nox-Mob/OpenAppHub-docs/edit/main/' },
       social: [
         { icon: 'github', label: 'GitHub', href: 'https://github.com/Nox-Mob' },
