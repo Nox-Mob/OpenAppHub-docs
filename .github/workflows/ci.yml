@@ -19,5 +19,7 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
+      - name: Dependency vulnerabilities (OWASP A03:2025; fails on high or critical in what ships)
+        run: npm audit --omit=dev --audit-level=high
       - run: npm run build
       - run: npm run check:links
